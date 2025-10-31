@@ -14,3 +14,25 @@ Program Sistem Data Terpadu dan Pengaduan Institusi Publik merupakan platform te
 
 Selain itu, sistem ini juga menyediakan kanal khusus untuk pengaduan atau keluhan masyarakat, sehingga publik dapat dengan mudah menyampaikan aspirasi, kritik, maupun laporan terkait pelayanan atau kebijakan institusi publik. Melalui program ini, diharapkan tercipta akuntabilitas yang lebih tinggi, pelayanan yang responsif, dan kepercayaan masyarakat terhadap kinerja lembaga publik.
 
+
+# B. Fitur-fitur Program
+##   a. Menu Utama
+##   b. Menu Pengguna
+##   c. Menu Admin Pengelola Anggaran
+##   d. Menu Admin Pengelola Pengaduan
+
+
+# C. Penerapan 5 Pilar OOP (Object Oriented Programming)
+##   a. Encapsulation
+##   b. Abstraction
+##   c. Polymorphism 
+##   d. Inheritance
+##   e. Interface
+
+# D. Struktur Package/Folder Program
+##   a. Model
+##   b. Controller
+##   c. View
+
+# E. Tutorial Penggunaan Program
+
