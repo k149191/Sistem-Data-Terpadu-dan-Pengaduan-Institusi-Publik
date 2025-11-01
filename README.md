@@ -128,8 +128,14 @@ Admin dapat melihat semua pengaduan yang dikirim oleh pengguna, lengkap dengan d
 
 # D. Struktur Package/Folder Program
 ##   a. Model
+Folder Model berisi file atau kelas yang berhubungan langsung dengan data dan database.
+Fungsi utamanya adalah mengatur logika pengolahan data seperti penyimpanan, pengambilan, pengubahan, dan penghapusan data (CRUD operations).
 ##   b. Controller
+Folder Controller berisi logika utama program yang mengatur alur antara Model dan View.
+Controller menerima input dari pengguna, memprosesnya dengan bantuan Model, lalu mengembalikan hasil ke View.
 ##   c. View
+Folder View berisi bagian tampilan (user interface) yang berinteraksi langsung dengan pengguna.
+Bagian ini berupa tampilan GUI.
 
 # E. Tutorial Penggunaan Program
 ##   a. Pengguna
