@@ -81,7 +81,7 @@ Admin dapat memasukkan data untuk data anggaran seperti:
 #### c). Melihat Tabel Data Anggaran
 Sistem menampilkan tabel data anggaran yang terdapat di sistem.
 
-#### d).Memperbarui Data Anggaran
+#### d). Memperbarui Data Anggaran
 Jika terdapat perubahan, admin dapat mengedit informasi agar tetap akurat dan terkini. Dimana admin diminta untuk memilih **ID data anggaran** yang ingin di perbarui, dan admin bisa memilih kolom yang ingin diperbarui seperti:
 - Tahun
 - Nama program
@@ -121,7 +121,7 @@ Tanggapan dapat diperbarui dengan admin memilih **ID tanggapan** yang ingin dipe
 #### e). Menghapus Tanggapan
 Jika ada tanggapan ganda atau tidak valid, admin dapat menghapusnya agar data tetap bersih dan relevan.
 
-#### c). Melihat Tabel Pengaduan Masuk
+#### f). Melihat Tabel Pengaduan Masuk
 Admin dapat melihat semua pengaduan yang dikirim oleh pengguna, lengkap dengan detail isi dan identitas pengirim.
 
 Melalui menu ini, pengelolaan keluhan masyarakat menjadi lebih cepat, sistematis, dan transparan.
