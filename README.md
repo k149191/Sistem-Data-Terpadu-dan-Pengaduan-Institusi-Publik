@@ -154,7 +154,7 @@ Bertugas membuat koneksi ke database MySQL. File ini menyimpan konfigurasi seper
 
 Menjadi titik awal (entry point) dari aplikasi ketika dijalankan.
 ### a). MainApp.java (class)
-File utama yang menjalankan sistem. Kelas ini menampilkan menu utama dan mengarahkan pengguna ke halaman login atau registrasi sesuai peran masing-masing.
+File utama yang menjalankan sistem. Kelas ini menampilkan menu utama.
 
 ## d. Package model
 
@@ -163,49 +163,51 @@ File utama yang menjalankan sistem. Kelas ini menampilkan menu utama dan mengara
 Berisi kumpulan kelas yang merepresentasikan data (entitas) dalam sistem.
 Setiap file biasanya berhubungan langsung dengan tabel pada database.
 ### a).Admin.java (class)
-Menyimpan data admin (pengelola anggaran dan pengelola pengaduan).
+Menyimpan data admin (pengelola anggaran dan pengelola pengaduan). Dan terdapat data/atribut dari superclassnya yaitu akun dan atribut peran. Ini merupakan sub class dari akun.
 ### b). Akun.java (class) 
-Menyimpan data akun seperti username, password, dan peran pengguna.
+Menyimpan data akun seperti idAkun, nama, email, noHp, kataSandi. Ini merupakan super class.
 ### c). Anggaran.java (class) 
-Mewakili data anggaran publik yang dikelola oleh admin.
+Mewakili data anggaran publik yang dikelola oleh admin. Seperti idAnggaran, namaAnggaran, totalAnggaran, realisasi, dan keterangan. 
 ### d). Instansi.java (class) 
-Menyimpan informasi instansi publik yang terdaftar.
+Menyimpan informasi instansi publik yang terdaftar. Atribut-atributnya adalah idInstansi, nama, jenis, sektor, dan alamat
 ### e). Laporan.java (interface) 
-Menyediakan kerangka dasar untuk pembuatan laporan dalam sistem.
+Menyediakan kerangka dasar untuk pembuatan laporan dalam sistem. Terdapar method formatLaporan().
 ### f). Pengaduan.java (class) 
-Menampung data pengaduan atau keluhan masyarakat.
+Menampung data pengaduan atau keluhan masyarakat. Atribut-atributnya adalah idPengaduan, idPengguna, idInstansi, judul, isi, dan tanggal.
 ### g). Pengguna.java (class) 
-Mewakili data pengguna publik yang dapat melakukan login, mengirim pengaduan, dan melihat data anggaran.
+Mewakili data pengguna publik yang dapat mengirim pengaduan, dan melihat data anggaran. Dan terdapat data/atribut dari superclassnya yaitu akun dan atribut alamat. Ini merupakan sub class dari akun.
 ### h). Tanggapan.java (class) 
-Menyimpan data tanggapan admin terhadap pengaduan pengguna.
+Menyimpan data tanggapan admin terhadap pengaduan pengguna. Atribut-atributnya adalah idTanggapan, idAdmin, idPengaduan, status, isi, tanggal.
 ### i). Validatable.java (interface) 
-Digunakan untuk memastikan validasi data input agar sesuai format dan aturan tertentu.
+Digunakan untuk memastikan validasi data input agar sesuai format dan aturan tertentu. Terdapat method validate()
 ### j). Wilayah.java (class) 
-Mewakili data wilayah (provinsi, kabupaten, atau kota) terkait instansi publik.
+Mewakili data wilayah (provinsi, kabupaten, atau kota) terkait instansi publik. Atribut-atributnya adalah idWilayah, nama, dan tingkat.
 
 ## e. Package view
 Berisi seluruh komponen tampilan (user interface) dari aplikasi, baik untuk pengguna umum maupun admin.
 Tiap file Java di sini berfungsi menampilkan form atau menu tertentu.
 
+<img width="436" height="628" alt="image" src="https://github.com/user-attachments/assets/859286c5-1ffc-4f8b-8b6c-40753bd022ce" />
+
 ### a). Tampilan Admin Pengelola Anggaran
-1. AdminPengelolaAnggaran.java (class) – Menu utama admin pengelola anggaran.
-2. AdminPengelolaAnggaran_melihat.java (class) – Menampilkan daftar data anggaran.
-3. AdminPengelolaAnggaran_menambah.java (class) – Form untuk menambahkan data anggaran baru.
-4. AdminPengelolaAnggaran_memperbarui.java (class) – Form untuk memperbarui data anggaran.
+1. AdminPengelolaAnggaran.java (class): Menu utama/dashboard admin pengelola anggaran. 
+2. AdminPengelolaAnggaran_melihat.java (class): Menampilkan daftar data anggaran.
+3. AdminPengelolaAnggaran_menambah.java (class): Form untuk menambahkan data anggaran baru.
+4. AdminPengelolaAnggaran_memperbarui.java (class): Form untuk memperbarui data anggaran.
 5. AdminPengelolaAnggaran_menghapus.java (class) – Form untuk menghapus data anggaran.
 
 ### b). Tampilan Admin Pengelola Pengaduan
-1. AdminPengelolaPengaduan.java (class) – Menu utama admin pengelola pengaduan.
-2. AdminPengelolaPengaduan_melihat.java (class) – Menampilkan daftar pengaduan masyarakat.
-3. AdminPengelolaPengaduan_menambah.java (class) – Form untuk menambahkan data pengaduan baru.
-4. AdminPengelolaPengaduan_memperbarui.java (class) – Form untuk memperbarui pengaduan.
-5. AdminPengelolaPengaduan_menghapus.java (class) – Form untuk menghapus pengaduan.
-6. AdminPengelolaPengaduan_pengaduan.java (class) – Menampilkan daftar pengaduan dan status tanggapannya.
+1. AdminPengelolaPengaduan.java (class): Menu utama/dashboard admin pengelola tanggapan pengaduan.
+2. AdminPengelolaPengaduan_melihat.java (class): Menampilkan daftar tanggapan pengaduan.
+3. AdminPengelolaPengaduan_menambah.java (class): Form untuk menambahkan data pengaduan baru.
+4. AdminPengelolaPengaduan_memperbarui.java (class) – Form untuk memperbarui tanggapan.
+5. AdminPengelolaPengaduan_menghapus.java (class) – Form untuk menghapus tanggapan.
+6. AdminPengelolaPengaduan_pengaduan.java (class) – Menampilkan daftar pengaduan masyarakat.
 
 ### c). Tampilan Pengguna
 1. MenuPengguna.java (class) – Menu utama pengguna setelah login.
 2. Pengaduan_menambah.java (class) – Form untuk mengajukan pengaduan baru.
-3. Pengaduan_pengadu.java (class) – Menampilkan daftar pengaduan milik pengguna.
+3. Pengaduan_pengadu.java (class) – Menu utama/dashboard pengguna pengaduan.
 4. Pengaduan_tabelPengaduan.java (class) – Menampilkan data pengaduan dalam bentuk tabel.
 5. Pengaduan_tabelTanggapan.java (class) – Menampilkan tanggapan dari admin terhadap pengaduan.
 6. Pengguna_dataAnggaran.java (class) – Menampilkan data anggaran publik yang dapat dilihat pengguna.
@@ -218,7 +220,7 @@ Tiap file Java di sini berfungsi menampilkan form atau menu tertentu.
 ### e). File Pendukung (Gambar)
 File-file berikut digunakan sebagai elemen visual untuk mempercantik tampilan antarmuka:
 1. GEDUNGBARU.png (gambar) – Gambar dekoratif di halaman utama.
-2. gedung.png (gambar) – Ilustrasi gedung pada tampilan admin.
+2. gedung.png (gambar) – Ilustrasi gedung.
 3. instansi.png (gambar) – Ikon instansi publik.
 4. logo.png (gambar) – Logo utama aplikasi.
 5. orang.png (gambar) – Ikon pengguna.
