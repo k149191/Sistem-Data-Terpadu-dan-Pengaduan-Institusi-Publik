@@ -1,4 +1,4 @@
-# Kelompok 2 | A3B
+<img width="322" height="179" alt="image" src="https://github.com/user-attachments/assets/989e1b44-1f13-424f-b1bc-ebb7548bc47f" /># Kelompok 2 | A3B
 # Anggota:
 ### - Dhita Olivia (2409116040)
 ### - Khairunisa Aprilia (2409116060)
@@ -229,6 +229,141 @@ File-file berikut digunakan sebagai elemen visual untuk mempercantik tampilan an
 
 # E. Tutorial Penggunaan Program
 ##   a. Pengguna
+Langkah-langkah penggunaan program bagi pengguna umum adalah sebagai berikut:
+
+### a). Buka Program
+Jalankan aplikasi Sistem Data Terpadu dan Pengaduan Institusi Publik.
+
+<img width="896" height="500" alt="image" src="https://github.com/user-attachments/assets/07c43bf1-78a9-4ba8-b768-4e12906f7b88" />
+
+Nantinya akan tertampil menu utama, pada menu utama terdapat dua pilihan yaitu registrasi (jika belum memilki akun) dan login.
+
+### b). Registrasi Akun Baru (Jika Belum Memiliki Akun)
+Klik tombol **“Registrasi”** pada halaman utama. Dan akan tertampil seperti dibawah, kita akan diminta untuk mengisi beberapa data. Dan juga terdapat button **X** untuk keluar dari menu registrasi dan kembali ke menu utama jika tidak jadi untuk melakukan registrasi.
+
+<img width="901" height="530" alt="image" src="https://github.com/user-attachments/assets/85b7a3ff-0fcd-48f5-adbc-5c3abc42dc6e" />
+
+Isi data seperti **NIK, nama lengkap, email, No Hp, kata sandi dan alamat.
+**
+<img width="903" height="536" alt="image" src="https://github.com/user-attachments/assets/7a2c56ac-c8e3-405a-8158-5b531df49a59" />
+
+Klik **“Registrasi”** untuk menyimpan akun ke dalam sistem. Jika berhasil registrasi akan tertampil pesan **"Registrasi Berhasil!"**. Dan bisa klik **OK** untuk kembali ke menu utama.
+
+<img width="322" height="179" alt="image" src="https://github.com/user-attachments/assets/98f317fc-d5a0-4e45-87da-81edf4484318" />
+
+Jika terjadi kesalahan dalam memasukan data, akan tertampil pesan pada bagian yang salah. Seperti:
+1. Jika NIK tidak sesuai
+   
+<img width="315" height="183" alt="image" src="https://github.com/user-attachments/assets/7992e0e9-10ea-485a-aaac-c4534e174700" />
+
+2. Jika NIK sudah terdaftar
+
+<img width="321" height="180" alt="image" src="https://github.com/user-attachments/assets/c3b89f08-1358-4cdd-af59-acf7dc49d8c2" />
+
+3. Jika email tidak sesuai
+
+<img width="321" height="180" alt="image" src="https://github.com/user-attachments/assets/e5017999-8a62-43fe-b75e-f84ed79c60e8" />
+
+4. Jika email sudah terdaftar
+
+<img width="323" height="180" alt="image" src="https://github.com/user-attachments/assets/633edda6-e1d8-48e2-bbb1-c56cc199bba7" />
+   
+5. Jika NO HP tidak sesuai
+
+<img width="321" height="178" alt="image" src="https://github.com/user-attachments/assets/c957bd3d-618e-4786-b29c-0bfc44167ab7" />
+
+6. Jika kata sandi tidak sesuai
+
+<img width="325" height="180" alt="image" src="https://github.com/user-attachments/assets/ba0ecc59-80d3-4f07-bec0-cc7addafa4f3" />
+
+7. Jika terdapat field/kolom yang kosong
+
+<img width="320" height="180" alt="image" src="https://github.com/user-attachments/assets/7b477b30-40ab-4068-a17c-d6dda7279f98" />
+
+### c). Login ke Sistem
+Klik tombol **“Login”** pada halaman utama. Dan akan tertampil seperti dibawah, kita akan diminta untuk mengisi email dan kata sandi untuk login. Dan juga terdapat button **X** untuk keluar dari menu login dan kembali ke menu utama jika tidak jadi untuk melakukan login.
+
+<img width="902" height="520" alt="image" src="https://github.com/user-attachments/assets/b50a94b4-4bcb-4a89-b152-3740f9294ad0" />
+
+Masukkan **username dan password** yang sudah terdaftar.
+
+<img width="908" height="533" alt="image" src="https://github.com/user-attachments/assets/9438d87c-4c61-4ec9-a528-f447da609cd8" />
+
+Klik tombol **“Login”** untuk masuk ke menu pengguna. Dan jika berhasil login sebagi pengguna akan langsung masuk ke menu pengguna.
+
+<img width="909" height="495" alt="image" src="https://github.com/user-attachments/assets/f336b709-b437-4ea0-b085-8badba307490" />
+
+Jika terjadi kesalahan dalam memasukan data, akan tertampil pesan seperti:
+
+<img width="320" height="185" alt="image" src="https://github.com/user-attachments/assets/0646730e-6ebe-44d4-9098-a47f8dfab600" />
+
+
+### d). Melihat Data Publik Anggaran
+Pada menu pengguna, pilih menu **“Data Anggaran”**. 
+
+<img width="909" height="498" alt="image" src="https://github.com/user-attachments/assets/512ac796-3691-455f-bff6-64ffad4eb315" />
+
+Sistem akan menampilkan daftar anggaran publik yang telah dikelola oleh admin. Terdapat button **X** untuk keluar dari menu data anggaran dan akan kembali ke menu pengguna.
+
+### e). Menu Pengaduan
+
+Pada menu pengguna, pilih menu **“Pengaduan”**. Terdapat button **X** untuk keluar dari menu data anggaran dan akan kembali ke menu pengguna. Dan pada menu pengaduan terdapat side bar yang terdapat **dashboard, tambah pengaduan, lihat tabel pengaduan, dan lihat tabel tanggapaan.** 
+
+<img width="929" height="520" alt="image" src="https://github.com/user-attachments/assets/5189a4c5-4f16-4493-966f-c40fa9abde57" />
+
+
+1. Dashboard
+
+Saat masuk ke menu pengaduan, halaman yang pertama kali terbuka adalah **dashboard**. Pada dashboard terdapat deskripsi atau penjelasan mengenai sistem seperti tujuan dan juga deskripsi halaman pengaduan.
+
+<img width="933" height="523" alt="image" src="https://github.com/user-attachments/assets/56060552-9551-445a-ba13-a1577358d47b" />
+
+2. Tambah Pengaduan
+
+Pada menu **“Pengaduan”**, klik **“Tambah Pengaduan”.**
+
+<img width="1033" height="684" alt="image" src="https://github.com/user-attachments/assets/2c6b5734-ffd8-4da8-ab6e-4dea193a8dc2" />
+
+Isi kolom seperti **Judul Pengaduan, Isi Aduan, Tanggal, dan Nama Instansi.**
+
+<img width="1040" height="686" alt="image" src="https://github.com/user-attachments/assets/69a6d21f-ceb0-488a-a64b-fd9b64b4a9a1" />
+
+Klik **“Tambah”** untuk mengajukan laporan. Jika pengaduan berhasil ditambahkan akan tertampil pesan **"Pengaduan Berhasil dikirim!"**.
+
+<img width="331" height="178" alt="image" src="https://github.com/user-attachments/assets/bdadf87c-48da-40ed-a111-d450d8aca3f3" />
+
+Jika terjadi kesalahan dalam memasukan data, akan tertampil pesan seperti:
+
+<img width="400" height="180" alt="image" src="https://github.com/user-attachments/assets/e2a92cc1-4308-4877-8af0-acbc4272bf25" />
+
+3. Lihat Tabel Pengaduan
+
+Pilih menu **“Lihat Tabel Pengaduan”** untuk melihat tabel pengaduan yang telah kita tambahkan di sistem.
+
+<img width="917" height="526" alt="image" src="https://github.com/user-attachments/assets/4e3cb8b8-6647-4d6d-a00f-8df7a979d105" />
+
+4. Lihat Tabel Tanggapan
+
+Pilih menu **“Lihat Tabel Tanggapan”** untuk melihat tabel tanggapan jika admin sudah menanggapi, pengguna dapat melihat balasan atau tindak lanjut dari pengaduan tersebut.
+
+<img width="938" height="499" alt="image" src="https://github.com/user-attachments/assets/e6536a76-1bbb-47fe-93db-33e6564b770d" />
+
+### f). Keluar dari Menu Pengguna
+
+Setelah selesai, klik tombol **“X”** pada menu pengguna untuk keluar dengan aman dari menu pengguna. Jika mengklik tombol X akan tertampil pesan seperti digambar, klik **Yes** jika ingin keluar dan klik **No** jika masih ingin di menu pengguna. Jika mengklik Yes pengguna akan kembali ke menu utama.
+
+<img width="428" height="176" alt="image" src="https://github.com/user-attachments/assets/1c98e9f4-e810-4a36-8601-2338038b36c6" />
+
+### g). Keluar dari sistem/aplikasi
+Setelah keluar dari menu pengguna, pengguna akan kembali ke menu utama.
+
+<img width="902" height="491" alt="image" src="https://github.com/user-attachments/assets/c3606319-444d-425b-9ce4-35ac4571ae2c" />
+
+klik tombol **“X”** pada menu pengguna untuk keluar dengan aman dari menu utama. Jika mengklik tombol X akan tertampil pesan seperti digambar, klik **Yes** jika ingin keluar dan klik **No** jika masih ingin mengakses sistem. Jika mengklik Yes pengguna akan keluar dari sistem.
+
+<img width="398" height="180" alt="image" src="https://github.com/user-attachments/assets/94d56e13-9b08-44b6-96fd-065d7fb23bef" />
+
+
 ##   b. Admin Pengelola Data Anggaran
 ##   c. Admin Pengelola Tanggapan Pengaduan
 
