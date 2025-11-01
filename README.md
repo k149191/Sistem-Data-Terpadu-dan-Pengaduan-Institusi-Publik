@@ -62,6 +62,37 @@ Jika admin pengelola pengaduan telah memberikan tanggapan, pengguna bisa melihat
 Dengan adanya menu pengguna, masyarakat dapat berpartisipasi secara aktif dalam sistem pengawasan publik dan ikut mendukung keterbukaan informasi.
 
 ##   c. Menu Admin Pengelola Anggaran
+Menu ini diperuntukkan bagi admin yang bertanggung jawab mengelola data anggaran publik.
+Admin ini memiliki hak akses khusus untuk menambah, memperbarui, dan memverifikasi data yang nantinya dapat diakses oleh pengguna.
+Fitur-fitur utama dalam menu admin pengelola anggaran meliputi:
+
+#### a). Dashboard
+Pada menu ini terdapat deskripsi menu admin pengelola anggaran.
+
+#### b). Menambah Data Baru
+Admin dapat memasukkan data untuk data anggaran seperti:
+- Nama instansi
+- Tahun
+- Nama program
+- Total anggaran
+- Realisasi
+- Keterangan
+
+#### c). Melihat Tabel Data Anggaran
+Sistem menampilkan tabel data anggaran yang terdapat di sistem.
+
+#### d).Memperbarui Data Anggaran
+Jika terdapat perubahan, admin dapat mengedit informasi agar tetap akurat dan terkini. Dimana admin diminta untuk memilih **ID data anggaran** yang ingin di perbarui, dan admin bisa memilih kolom yang ingin diperbarui seperti:
+- Tahun
+- Nama program
+- Total anggaran
+- Realisasi
+- Keterangan
+
+#### e). Menghapus Data Anggaran
+Admin dapat menghapus data yang sudah tidak relevan atau tidak valid. Dengan memasukan **ID data anggaran** yang ingin dihapus.
+
+Menu ini mendukung prinsip transparansi dan akuntabilitas dalam pengelolaan anggaran publik.
 
 ##   d. Menu Admin Pengelola Pengaduan
 
