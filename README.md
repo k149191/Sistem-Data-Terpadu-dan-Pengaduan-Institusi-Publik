@@ -132,4 +132,8 @@ Admin dapat melihat semua pengaduan yang dikirim oleh pengguna, lengkap dengan d
 ##   c. View
 
 # E. Tutorial Penggunaan Program
+##   a. Pengguna
+##   b. Admin Pengelola Data Anggaran
+##   c. Admin Pengelola Tanggapan Pengaduan
+
 
