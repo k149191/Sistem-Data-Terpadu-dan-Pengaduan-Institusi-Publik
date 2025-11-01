@@ -128,15 +128,102 @@ Admin dapat melihat semua pengaduan yang dikirim oleh pengguna, lengkap dengan d
 ##   e. Interface
 
 # D. Struktur Package/Folder Program
-##   a. Model
-Folder Model berisi file atau kelas yang berhubungan langsung dengan data dan database.
-Fungsi utamanya adalah mengatur logika pengolahan data seperti penyimpanan, pengambilan, pengubahan, dan penghapusan data (CRUD operations).
-##   b. Controller
-Folder Controller berisi logika utama program yang mengatur alur antara Model dan View.
-Controller menerima input dari pengguna, memprosesnya dengan bantuan Model, lalu mengembalikan hasil ke View.
-##   c. View
-Folder View berisi bagian tampilan (user interface) yang berinteraksi langsung dengan pengguna.
-Bagian ini berupa tampilan GUI.
+Struktur program Sistem Data Terpadu dan Pengaduan Institusi Publik dirancang menggunakan pola Model-View-Controller (MVC) untuk memisahkan logika data, tampilan, dan pengendali proses. Tujuannya agar sistem lebih mudah dikembangkan, diuji, dan dikelola.
+
+<img width="458" height="161" alt="image" src="https://github.com/user-attachments/assets/7d9aab08-b02c-427e-b8c4-1fca5df5d630" />
+
+##   a. Package controller
+
+<img width="210" height="46" alt="image" src="https://github.com/user-attachments/assets/6aa479aa-90bb-4619-a77f-51037c3d6b7f" />
+
+Berfungsi untuk mengatur logika utama aplikasi, seperti autentikasi dan koordinasi antara model dan view.
+### a). AuthService.java (class)
+Mengatur proses login dan registrasi untuk pengguna maupun admin. File ini melakukan validasi akun dan menghubungkannya dengan database untuk memastikan data login benar.
+
+##   b. Package database
+
+<img width="265" height="50" alt="image" src="https://github.com/user-attachments/assets/439b74df-bf31-4279-b10a-b8045f78dcf9" />
+
+Berfungsi untuk mengatur koneksi antara aplikasi dengan database.
+### a). DatabaseConnection.java (class)
+Bertugas membuat koneksi ke database MySQL. File ini menyimpan konfigurasi seperti URL database, username, dan password agar semua komponen program bisa melakukan query.
+
+##   c. Package main
+
+<img width="186" height="53" alt="image" src="https://github.com/user-attachments/assets/681243bd-6a7d-4757-8cd8-20a15d658e03" />
+
+Menjadi titik awal (entry point) dari aplikasi ketika dijalankan.
+### a). MainApp.java (class)
+File utama yang menjalankan sistem. Kelas ini menampilkan menu utama dan mengarahkan pengguna ke halaman login atau registrasi sesuai peran masing-masing.
+
+## d. Package model
+
+<img width="236" height="251" alt="image" src="https://github.com/user-attachments/assets/20f52a1e-db1f-4d02-93ee-4bde90c8bebe" />
+
+Berisi kumpulan kelas yang merepresentasikan data (entitas) dalam sistem.
+Setiap file biasanya berhubungan langsung dengan tabel pada database.
+### a).Admin.java (class)
+Menyimpan data admin (pengelola anggaran dan pengelola pengaduan).
+### b). Akun.java (class) 
+Menyimpan data akun seperti username, password, dan peran pengguna.
+### c). Anggaran.java (class) 
+Mewakili data anggaran publik yang dikelola oleh admin.
+### d). Instansi.java (class) 
+Menyimpan informasi instansi publik yang terdaftar.
+### e). Laporan.java (interface) 
+Menyediakan kerangka dasar untuk pembuatan laporan dalam sistem.
+### f). Pengaduan.java (class) 
+Menampung data pengaduan atau keluhan masyarakat.
+### g). Pengguna.java (class) 
+Mewakili data pengguna publik yang dapat melakukan login, mengirim pengaduan, dan melihat data anggaran.
+### h). Tanggapan.java (class) 
+Menyimpan data tanggapan admin terhadap pengaduan pengguna.
+### i). Validatable.java (interface) 
+Digunakan untuk memastikan validasi data input agar sesuai format dan aturan tertentu.
+### j). Wilayah.java (class) 
+Mewakili data wilayah (provinsi, kabupaten, atau kota) terkait instansi publik.
+
+## e. Package view
+Berisi seluruh komponen tampilan (user interface) dari aplikasi, baik untuk pengguna umum maupun admin.
+Tiap file Java di sini berfungsi menampilkan form atau menu tertentu.
+
+### a). Tampilan Admin Pengelola Anggaran
+1. AdminPengelolaAnggaran.java (class) – Menu utama admin pengelola anggaran.
+2. AdminPengelolaAnggaran_melihat.java (class) – Menampilkan daftar data anggaran.
+3. AdminPengelolaAnggaran_menambah.java (class) – Form untuk menambahkan data anggaran baru.
+4. AdminPengelolaAnggaran_memperbarui.java (class) – Form untuk memperbarui data anggaran.
+5. AdminPengelolaAnggaran_menghapus.java (class) – Form untuk menghapus data anggaran.
+
+### b). Tampilan Admin Pengelola Pengaduan
+1. AdminPengelolaPengaduan.java (class) – Menu utama admin pengelola pengaduan.
+2. AdminPengelolaPengaduan_melihat.java (class) – Menampilkan daftar pengaduan masyarakat.
+3. AdminPengelolaPengaduan_menambah.java (class) – Form untuk menambahkan data pengaduan baru.
+4. AdminPengelolaPengaduan_memperbarui.java (class) – Form untuk memperbarui pengaduan.
+5. AdminPengelolaPengaduan_menghapus.java (class) – Form untuk menghapus pengaduan.
+6. AdminPengelolaPengaduan_pengaduan.java (class) – Menampilkan daftar pengaduan dan status tanggapannya.
+
+### c). Tampilan Pengguna
+1. MenuPengguna.java (class) – Menu utama pengguna setelah login.
+2. Pengaduan_menambah.java (class) – Form untuk mengajukan pengaduan baru.
+3. Pengaduan_pengadu.java (class) – Menampilkan daftar pengaduan milik pengguna.
+4. Pengaduan_tabelPengaduan.java (class) – Menampilkan data pengaduan dalam bentuk tabel.
+5. Pengaduan_tabelTanggapan.java (class) – Menampilkan tanggapan dari admin terhadap pengaduan.
+6. Pengguna_dataAnggaran.java (class) – Menampilkan data anggaran publik yang dapat dilihat pengguna.
+
+### d). Tampilan Umum (Menu Awal)
+1. menuLogin.java (class) – Tampilan halaman login awal.
+2. menuRegistrasi.java (class) – Tampilan halaman registrasi pengguna baru.
+3. menuUtama.java (class) – Tampilan menu utama saat program dijalankan pertama kali.
+
+### e). File Pendukung (Gambar)
+File-file berikut digunakan sebagai elemen visual untuk mempercantik tampilan antarmuka:
+1. GEDUNGBARU.png (gambar) – Gambar dekoratif di halaman utama.
+2. gedung.png (gambar) – Ilustrasi gedung pada tampilan admin.
+3. instansi.png (gambar) – Ikon instansi publik.
+4. logo.png (gambar) – Logo utama aplikasi.
+5. orang.png (gambar) – Ikon pengguna.
+6. oranglagi.png (gambar) – Ikon tambahan untuk tampilan pengguna.
+7. reqis.png (gambar) – Ikon yang digunakan di halaman registrasi.
 
 # E. Tutorial Penggunaan Program
 ##   a. Pengguna
