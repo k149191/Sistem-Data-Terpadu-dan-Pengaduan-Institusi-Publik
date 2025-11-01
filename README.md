@@ -421,8 +421,11 @@ Klik **“Tambah”** untuk menambahkan data anggaran. Jika data berhasil ditamb
 
 Jika terjadi kesalahan dalam memasukan data, akan tertampil pesan seperti:
 - Jika instansi belum dipilih
+
 <img width="344" height="181" alt="image" src="https://github.com/user-attachments/assets/af88643f-cd81-4279-81db-c27d43972c45" />
+
 - Jika terdapat field/kolom yang belum diisi
+
 <img width="316" height="184" alt="image" src="https://github.com/user-attachments/assets/8e6495bf-c022-42ed-a2c7-acf7f7a995f3" />
 
 3. Melihat data
