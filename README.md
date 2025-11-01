@@ -243,8 +243,8 @@ Klik tombol **“Registrasi”** pada halaman utama. Dan akan tertampil seperti 
 
 <img width="901" height="530" alt="image" src="https://github.com/user-attachments/assets/85b7a3ff-0fcd-48f5-adbc-5c3abc42dc6e" />
 
-Isi data seperti **NIK, nama lengkap, email, No Hp, kata sandi dan alamat.
-**
+Isi data seperti **NIK, nama lengkap, email, No Hp, kata sandi dan alamat.**
+
 <img width="903" height="536" alt="image" src="https://github.com/user-attachments/assets/7a2c56ac-c8e3-405a-8158-5b531df49a59" />
 
 Klik **“Registrasi”** untuk menyimpan akun ke dalam sistem. Jika berhasil registrasi akan tertampil pesan **"Registrasi Berhasil!"**. Dan bisa klik **OK** untuk kembali ke menu utama.
@@ -365,6 +365,75 @@ klik tombol **“X”** pada menu pengguna untuk keluar dengan aman dari menu ut
 
 
 ##   b. Admin Pengelola Data Anggaran
+
+Langkah-langkah penggunaan bagi admin yang mengelola data anggaran adalah sebagai berikut:
+
+Login sebagai Admin Pengelola Anggaran
+
+Masukkan username dan password yang telah diberikan.
+
+Klik “Login” untuk masuk ke halaman admin.
+
+Melihat Data Anggaran
+
+Pilih menu “Data Anggaran” untuk melihat seluruh daftar anggaran yang ada di sistem.
+
+Menambah Data Anggaran Baru
+
+Klik tombol “Tambah Anggaran”.
+
+Isi informasi seperti Nama Program, Jumlah Dana, Periode/Tahun Anggaran, dan Status.
+
+Klik “Simpan” untuk menambahkan data baru.
+
+Mengedit atau Memperbarui Data Anggaran
+
+Pilih data yang ingin diperbarui.
+
+Klik tombol “Edit”, ubah data yang diperlukan, lalu klik “Update”.
+
+Menghapus Data Anggaran
+
+Pilih data yang tidak relevan.
+
+Klik “Hapus”, lalu konfirmasi penghapusan.
+
+Logout dari Sistem
+
+Setelah selesai, klik “Logout” untuk keluar dari akun admin.
+
 ##   c. Admin Pengelola Tanggapan Pengaduan
+
+Langkah-langkah penggunaan bagi admin yang bertugas menangani pengaduan adalah sebagai berikut:
+
+Login sebagai Admin Pengelola Pengaduan
+
+Masukkan username dan password yang telah disediakan.
+
+Klik “Login” untuk masuk ke menu admin pengaduan.
+
+Melihat Daftar Pengaduan Masuk
+
+Pilih menu “Daftar Pengaduan” untuk melihat semua laporan yang dikirim pengguna.
+
+Memberikan Tanggapan atau Tindak Lanjut
+
+Klik pada salah satu pengaduan.
+
+Isi kolom tanggapan atau keterangan tindak lanjut.
+
+Klik “Kirim Tanggapan” untuk memperbarui data.
+
+Mengubah Status Pengaduan
+
+Ubah status pengaduan menjadi Sedang Diproses atau Selesai sesuai perkembangan kasus.
+
+Menghapus Pengaduan yang Tidak Valid
+
+Jika terdapat aduan ganda atau tidak relevan, admin dapat menghapus data tersebut melalui tombol “Hapus”.
+
+Logout dari Sistem
+
+Klik “Logout” untuk keluar dari akun admin dengan aman.
 
 
