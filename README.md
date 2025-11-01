@@ -18,7 +18,8 @@ Selain itu, sistem ini juga menyediakan kanal khusus untuk pengaduan atau keluha
 # B. Fitur-fitur Program
 ##   a. Menu Utama
 Pada menu utama, sistem menampilkan halaman awal yang berisi dua opsi utama, yaitu Login dan Registrasi.
-a). Registrasi 
+
+### a). Registrasi 
 Fitur ini digunakan oleh pengguna baru yang belum memiliki akun.
 Pengguna perlu mengisi beberapa data seperti:
 - NIK (Nomor Induk Kependudukan)
@@ -29,8 +30,8 @@ Pengguna perlu mengisi beberapa data seperti:
 - Alamat
 Setelah data diisi dan disimpan, akun pengguna akan otomatis terdaftar di sistem dan dapat digunakan untuk login ke dalam menu pengguna. Dan juga, menu registasi memiliki tombol Keluar untuk kembali ke halaman awal atau menu utama.
 
-b) Login 
-Fitur ini digunakan untuk masuk ke sistem sesuai peran masing-masing:
+### b) Login 
+Fitur ini digunakan untuk masuk ke sistem sesuai peran masing-masing dan diminta untuk mengisi email dan kata sandi.
 - Pengguna: dapat mengakses menu data anggaran dan menu pengaduan.
 - Admin Pengelola Anggaran: dapat mengelola data anggaran.
 = Admin Pengelola Pengaduan: dapat meninjau, menanggapi, dan menindaklanjuti laporan atau keluhan yang dikirim oleh pengguna.
