@@ -45,18 +45,18 @@ Pengguna dapat melihat daftar anggaran yang telah disediakan oleh admin, termasu
 ### b). Menu Pengaduan atau Keluhan
 Pada menu ini pengguna dapat melakukan berbagai hal mengenai pengaduannya, seperti mengirim pengaduan, melihat pengaduan, menghapus pengaduan, dan juga melihat tanggapan dari aadmin mengenai pengaduan yang telah kita layangkan ke institusi publik.
 
-1. Mengirim Pengaduan atau Keluhan 
+#### 1. Mengirim Pengaduan atau Keluhan 
 Melalui formulir pengaduan, pengguna dapat mengajukan laporan terkait pelayanan publik.
 Formulir ini biasanya berisi kolom:
 - Judul Pengaduan
 - Isi atau Deskripsi Keluhan
 - Tanggal Pengaduan
 - Nama Instansi Tujuan
-- 
-2. Melihat Pengaduan 
+
+#### 2. Melihat Pengaduan 
 Setelah mengirim aduan, pengguna dapat melihat pengaduannya.
 
-3. Melihat Tanggapan dari Admin
+#### 3. Melihat Tanggapan dari Admin
 Jika admin pengelola pengaduan telah memberikan tanggapan, pengguna bisa melihat hasil respon atau tindakan lanjutan melalui menu ini.
 
 Dengan adanya menu pengguna, masyarakat dapat berpartisipasi secara aktif dalam sistem pengawasan publik dan ikut mendukung keterbukaan informasi.
