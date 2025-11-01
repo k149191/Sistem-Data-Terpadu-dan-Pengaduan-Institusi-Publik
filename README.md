@@ -96,6 +96,36 @@ Menu ini mendukung prinsip transparansi dan akuntabilitas dalam pengelolaan angg
 
 ##   d. Menu Admin Pengelola Pengaduan
 
+Menu ini digunakan oleh admin yang bertugas memproses dan menindaklanjuti pengaduan masyarakat.
+Admin memiliki akses untuk melihat semua aduan yang masuk dan memperbarui statusnya sesuai perkembangan.
+Fitur-fitur utama pada menu admin pengelola pengaduan antara lain:
+
+#### a). Dashboard
+Pada menu ini terdapat deskripsi menu admin pengelola tanggapan.
+
+#### b). Menambah Tanggapan 
+Admin dapat membalas pengaduan dengan memilih **ID pengaduan** yang ingin diberi tanggapaan dan akan diminta untuk mengisi kolom seperti:
+- Keterangan status (diteruskan, ditindaklanjuti, atau diselesaikan).
+- Isi Tanggapan mengenai penjelasan penyelesaian, atau langkah tindak lanjut yang telah dilakukan.
+- Tanggal tanggapan
+
+#### c). Melihat Tabel Tanggapan
+Admin dapat melihat semua tanggapan yang telah ditambahkan.
+
+#### d). Memperbarui Tanggapan
+Tanggapan dapat diperbarui dengan admin memilih **ID tanggapan** yang ingin diperbarui status, kolom-kolom yang bisa idperbarui adalah: 
+- Keterangan status (diteruskan, ditindaklanjuti, atau diselesaikan).
+- Isi tanggapan.
+- Tanggal tanggapan
+
+#### e). Menghapus Tanggapan
+Jika ada tanggapan ganda atau tidak valid, admin dapat menghapusnya agar data tetap bersih dan relevan.
+
+#### c). Melihat Tabel Pengaduan Masuk
+Admin dapat melihat semua pengaduan yang dikirim oleh pengguna, lengkap dengan detail isi dan identitas pengirim.
+
+Melalui menu ini, pengelolaan keluhan masyarakat menjadi lebih cepat, sistematis, dan transparan.
+
 
 # C. Penerapan 5 Pilar OOP (Object Oriented Programming)
 ##   a. Encapsulation
