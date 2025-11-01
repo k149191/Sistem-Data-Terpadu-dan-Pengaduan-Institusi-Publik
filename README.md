@@ -38,7 +38,7 @@ Fitur ini digunakan untuk masuk ke sistem sesuai peran masing-masing dan diminta
 Sistem akan melakukan verifikasi username dan password terhadap data yang tersimpan di database. Jika valid, pengguna langsung diarahkan ke menu sesuai perannya. Selain itu, menu login juga memiliki tombol Keluar untuk kembali ke halaman awal atau menu utama dan menjaga keamanan akun setelah selesai digunakan.
 
 ##   b. Menu Pengguna
-Menu ini merupakan halaman utama bagi pengguna yang telah berhasil login. Pada menu ini, pengguna dapat mengakses berbagai fitur layanan publik yang berkaitan dengan data anggaran dan pengaduan.
+Menu ini merupakan halaman utama bagi pengguna yang telah berhasil login. Pada menu ini, pengguna dapat mengakses berbagai fitur layanan publik yang berkaitan dengan data anggaran dan pengaduan. Dengan adanya menu pengguna, masyarakat dapat berpartisipasi secara aktif dalam sistem pengawasan publik dan ikut mendukung keterbukaan informasi.
 Fitur-fitur yang tersedia pada menu pengguna antara lain:
 ### a). Melihat Data Publik Anggaran
 Pengguna dapat melihat daftar anggaran yang telah disediakan oleh admin, termasuk rincian seperti nama program, jumlah dana, dan tahun pelaksanaan. Tujuannya untuk meningkatkan transparansi dan memberikan akses informasi publik.
@@ -59,11 +59,8 @@ Setelah mengirim aduan, pengguna dapat melihat tabel pengaduannya.
 #### 3. Melihat Tanggapan dari Admin
 Jika admin pengelola pengaduan telah memberikan tanggapan, pengguna bisa melihat hasil respon atau tindakan lanjutan melalui tabel di menu ini.
 
-Dengan adanya menu pengguna, masyarakat dapat berpartisipasi secara aktif dalam sistem pengawasan publik dan ikut mendukung keterbukaan informasi.
-
 ##   c. Menu Admin Pengelola Anggaran
-Menu ini diperuntukkan bagi admin yang bertanggung jawab mengelola data anggaran publik.
-Admin ini memiliki hak akses khusus untuk menambah, memperbarui, dan memverifikasi data yang nantinya dapat diakses oleh pengguna.
+Menu ini diperuntukkan bagi admin yang bertanggung jawab mengelola data anggaran publik.  Admin ini memiliki hak akses khusus untuk menambah, memperbarui, dan memverifikasi data yang nantinya dapat diakses oleh pengguna. Menu ini mendukung prinsip transparansi dan akuntabilitas dalam pengelolaan anggaran publik.
 Fitur-fitur utama dalam menu admin pengelola anggaran meliputi:
 
 #### a). Dashboard
@@ -92,12 +89,9 @@ Jika terdapat perubahan, admin dapat mengedit informasi agar tetap akurat dan te
 #### e). Menghapus Data Anggaran
 Admin dapat menghapus data yang sudah tidak relevan atau tidak valid. Dengan memasukan **ID data anggaran** yang ingin dihapus.
 
-Menu ini mendukung prinsip transparansi dan akuntabilitas dalam pengelolaan anggaran publik.
-
 ##   d. Menu Admin Pengelola Pengaduan
 
-Menu ini digunakan oleh admin yang bertugas memproses dan menindaklanjuti pengaduan masyarakat.
-Admin memiliki akses untuk melihat semua aduan yang masuk dan memperbarui statusnya sesuai perkembangan.
+Menu ini digunakan oleh admin yang bertugas memproses dan menindaklanjuti pengaduan masyarakat. Admin memiliki akses untuk melihat semua aduan yang masuk dan memperbarui statusnya sesuai perkembangan. Melalui menu ini, pengelolaan keluhan masyarakat menjadi lebih cepat, sistematis, dan transparan.
 Fitur-fitur utama pada menu admin pengelola pengaduan antara lain:
 
 #### a). Dashboard
@@ -123,8 +117,6 @@ Jika ada tanggapan ganda atau tidak valid, admin dapat menghapusnya agar data te
 
 #### f). Melihat Tabel Pengaduan Masuk
 Admin dapat melihat semua pengaduan yang dikirim oleh pengguna, lengkap dengan detail isi dan identitas pengirim.
-
-Melalui menu ini, pengelolaan keluhan masyarakat menjadi lebih cepat, sistematis, dan transparan.
 
 
 # C. Penerapan 5 Pilar OOP (Object Oriented Programming)
