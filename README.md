@@ -1,4 +1,4 @@
-<img width="322" height="179" alt="image" src="https://github.com/user-attachments/assets/989e1b44-1f13-424f-b1bc-ebb7548bc47f" /># Kelompok 2 | A3B
+# Kelompok 2 | A3B
 # Anggota:
 ### - Dhita Olivia (2409116040)
 ### - Khairunisa Aprilia (2409116060)
