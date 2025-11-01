@@ -32,9 +32,9 @@ Setelah data diisi dan disimpan, akun pengguna akan otomatis terdaftar di sistem
 
 ### b) Login 
 Fitur ini digunakan untuk masuk ke sistem sesuai peran masing-masing dan diminta untuk mengisi email dan kata sandi.
-1. Pengguna: dapat mengakses menu data anggaran dan menu pengaduan.
-2. Admin Pengelola Anggaran: dapat mengelola data anggaran.
-3. Admin Pengelola Pengaduan: dapat meninjau, menanggapi, dan menindaklanjuti laporan atau keluhan yang dikirim oleh pengguna.
+#### 1. Pengguna: dapat mengakses menu data anggaran dan menu pengaduan.
+#### 2. Admin Pengelola Anggaran: dapat mengelola data anggaran.
+#### 3. Admin Pengelola Pengaduan: dapat meninjau, menanggapi, dan menindaklanjuti laporan atau keluhan yang dikirim oleh pengguna.
 Sistem akan melakukan verifikasi username dan password terhadap data yang tersimpan di database. Jika valid, pengguna langsung diarahkan ke menu sesuai perannya. Selain itu, menu login juga memiliki tombol Keluar untuk kembali ke halaman awal atau menu utama dan menjaga keamanan akun setelah selesai digunakan.
 
 ##   b. Menu Pengguna
@@ -54,10 +54,10 @@ Formulir ini biasanya berisi kolom:
 - Nama Instansi Tujuan
 
 #### 2. Melihat Pengaduan 
-Setelah mengirim aduan, pengguna dapat melihat pengaduannya.
+Setelah mengirim aduan, pengguna dapat melihat tabel pengaduannya.
 
 #### 3. Melihat Tanggapan dari Admin
-Jika admin pengelola pengaduan telah memberikan tanggapan, pengguna bisa melihat hasil respon atau tindakan lanjutan melalui menu ini.
+Jika admin pengelola pengaduan telah memberikan tanggapan, pengguna bisa melihat hasil respon atau tindakan lanjutan melalui tabel di menu ini.
 
 Dengan adanya menu pengguna, masyarakat dapat berpartisipasi secara aktif dalam sistem pengawasan publik dan ikut mendukung keterbukaan informasi.
 
