@@ -28,6 +28,7 @@ Pengguna perlu mengisi beberapa data seperti:
 - No Handphone
 - Kata Sandi
 - Alamat
+
 Setelah data diisi dan disimpan, akun pengguna akan otomatis terdaftar di sistem dan dapat digunakan untuk login ke dalam menu pengguna. Dan juga, menu registasi memiliki tombol Keluar untuk kembali ke halaman awal atau menu utama.
 
 ### b) Login 
