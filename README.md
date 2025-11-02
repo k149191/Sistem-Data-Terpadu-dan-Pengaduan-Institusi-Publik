@@ -489,7 +489,7 @@ Setelah keluar dari menu admin pengelola anggaran, admin pengelola anggaran akan
 
 <img width="902" height="491" alt="image" src="https://github.com/user-attachments/assets/c3606319-444d-425b-9ce4-35ac4571ae2c" />
 
-klik tombol **“X”** pada menu utama untuk keluar dengan aman dari menu utama. Jika mengklik tombol X akan tertampil pesan seperti digambar, klik **Yes** jika ingin keluar dan klik **No** jika masih ingin mengakses sistem. Jika mengklik Yes pengguna akan keluar dari sistem.
+klik tombol **“X”** pada menu utama untuk keluar dengan aman dari menu utama. Jika mengklik tombol X akan tertampil pesan seperti digambar, klik **Yes** jika ingin keluar dan klik **No** jika masih ingin mengakses sistem. Jika mengklik Yes admin akan keluar dari sistem.
 
 <img width="398" height="180" alt="image" src="https://github.com/user-attachments/assets/94d56e13-9b08-44b6-96fd-065d7fb23bef" />
 
@@ -581,31 +581,31 @@ Jika data tanggapan berhasil di perbarui akan muncul pesan seperti **"Data berha
 
 Pilih menu **“Menghapus data”** untuk menghapus data tanggapan. Pertama, admin akan diminta untuk memilih **id tanggapan** yang ingin dihapus. Setelah memilih id tanggapan, data tanggapan dari id akan muncul dan admin bisa melihat data-data dari data tanggapan. 
 
-<img width="942" height="537" alt="image" src="https://github.com/user-attachments/assets/ae0704c6-cf45-4c19-a566-2cc07e4d36ff" />
+<img width="948" height="539" alt="image" src="https://github.com/user-attachments/assets/024c96a3-3bd2-4149-8563-851b81e4deed" />
 
 Misalnya admin ingin menghapus data anggaran dengan ID TGP050, akan muncul data tanggapan tersebut. 
 
-<img width="925" height="532" alt="image" src="https://github.com/user-attachments/assets/d6a2ee14-ae89-4e78-bb18-e229f05e0bf1" />
+<img width="942" height="537" alt="image" src="https://github.com/user-attachments/assets/474e8145-d2e6-41f9-a083-d6f128372aed" />
 
-Klik **"Hapus"** untuk mengapus data anggaran. Jika mengklik hapus, akan keluar pesan konfirmasi, apakah **"Yakin hapus data ID: (ID yang ingin dihapus)?"**. Jika pilih Yes maka data anggaran akan terhapus dan jika pilih No maka data anggaran tidak akan terhapus.
+Klik **"Hapus"** untuk mengapus data tanggapan. Jika mengklik hapus, akan keluar pesan konfirmasi, apakah **"Yakin hapus data ID Tanggapan: (ID yang ingin dihapus)?"**. Jika pilih **Yes** maka data tanggapan akan terhapus dan jika pilih **No** maka data tanggapan tidak akan terhapus.
 
-<img width="317" height="179" alt="image" src="https://github.com/user-attachments/assets/8ec0243d-584b-4139-828d-cc465270ae51" />
+<img width="423" height="179" alt="image" src="https://github.com/user-attachments/assets/d9672576-67b8-49cf-860c-0a6f2ec28f8e" />
 
-Jika data anggaran berhasil di hapus akan muncul pesan seperti **"Data anggaran berhasil dihapus!"**. Dan klik **OK** untuk menyelesaikan penghapusan data.
+Jika data tanggapan berhasil di hapus akan muncul pesan seperti **"Data berhasil dihapus!"**. Dan klik **OK** untuk menyelesaikan penghapusan data.
 
-<img width="319" height="182" alt="image" src="https://github.com/user-attachments/assets/f4c31582-096e-480d-8358-1b40560344e7" />
+<img width="396" height="183" alt="image" src="https://github.com/user-attachments/assets/204aa7eb-ce1e-46c5-a851-37a1b7f0379c" />
 
-### d). Keluar dari menu Admin - Pengelola Data Anggaran
+### d). Keluar dari menu Admin - Pengelola Data Tanggapan
 
-Setelah selesai, klik tombol **“X”** pada menu admin pengelola anggaran untuk keluar dengan aman dari menu admin pengelola anggaran. Jika mengklik tombol X akan tertampil pesan seperti digambar, klik **Yes** jika ingin keluar dan klik **No** jika masih ingin di menu admin pengelola anggaran. Jika mengklik Yes admin pengelola anggaran akan kembali ke menu utama.
+Setelah selesai, klik tombol **“X”** pada menu admin pengelola pegaduan untuk keluar dengan aman dari menu admin pengelola pengaduan. Jika mengklik tombol X akan tertampil pesan seperti digambar, klik **Yes** jika ingin keluar dan klik **No** jika masih ingin di menu admin pengelola tanggapan. Jika mengklik Yes admin pengelola tanggapan akan kembali ke menu utama.
 
 <img width="431" height="180" alt="image" src="https://github.com/user-attachments/assets/fed7aaa1-76b0-4c5e-8078-55f1c68c7b03" />
 
 ### d). Keluar dari sistem/aplikasi
-Setelah keluar dari menu admin pengelola anggaran, admin pengelola anggaran akan kembali ke menu utama.
+Setelah keluar dari menu admin pengelola tanggapan, admin pengelola tanggapan akan kembali ke menu utama.
 
 <img width="902" height="491" alt="image" src="https://github.com/user-attachments/assets/c3606319-444d-425b-9ce4-35ac4571ae2c" />
 
-klik tombol **“X”** pada menu utama untuk keluar dengan aman dari menu utama. Jika mengklik tombol X akan tertampil pesan seperti digambar, klik **Yes** jika ingin keluar dan klik **No** jika masih ingin mengakses sistem. Jika mengklik Yes pengguna akan keluar dari sistem.
+klik tombol **“X”** pada menu utama untuk keluar dengan aman dari menu utama. Jika mengklik tombol X akan tertampil pesan seperti digambar, klik **Yes** jika ingin keluar dan klik **No** jika masih ingin mengakses sistem. Jika mengklik Yes admin akan keluar dari sistem.
 
 <img width="398" height="180" alt="image" src="https://github.com/user-attachments/assets/94d56e13-9b08-44b6-96fd-065d7fb23bef" />
