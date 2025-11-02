@@ -385,7 +385,7 @@ Masukkan **email dan password** yang sudah terdaftar.
 
 <img width="909" height="528" alt="image" src="https://github.com/user-attachments/assets/52eb2589-5efa-4bbf-80c0-a165cd00d60d" />
 
-Klik tombol **“Login”** untuk masuk ke menu admin pengelola anggaran. Dan jika berhasil login sebagi pengguna akan langsung masuk ke menu admin pengelola anggara.
+Klik tombol **“Login”** untuk masuk ke menu admin pengelola anggaran. Dan jika berhasil login sebagi admin akan langsung masuk ke menu admin pengelola anggara.
 
 <img width="891" height="536" alt="image" src="https://github.com/user-attachments/assets/0bf445c6-0648-47ce-b4f6-bba9ac7d27c9" />
 
@@ -427,6 +427,18 @@ Jika terjadi kesalahan dalam memasukan data, akan tertampil pesan seperti:
 - Jika terdapat field/kolom yang belum diisi
 
 <img width="316" height="184" alt="image" src="https://github.com/user-attachments/assets/8e6495bf-c022-42ed-a2c7-acf7f7a995f3" />
+
+- Jika Total Angggaran dan Realisasi tidak sesuai
+
+<img width="321" height="181" alt="image" src="https://github.com/user-attachments/assets/6bb73d12-071c-4627-8ff7-724a7531a6d1" />
+
+- Jika Realisasi tidak sesuai dengan total anggaran di lapangan
+
+<img width="453" height="184" alt="image" src="https://github.com/user-attachments/assets/91a3b803-3787-40e9-98c3-ae891e3f5133" />
+
+- Jika tahun tidak sesuai
+
+<img width="322" height="184" alt="image" src="https://github.com/user-attachments/assets/8de9dfaa-2e70-4965-b0b3-237c3827c507" />
 
 3. Melihat data
 
@@ -482,3 +494,118 @@ klik tombol **“X”** pada menu utama untuk keluar dengan aman dari menu utama
 <img width="398" height="180" alt="image" src="https://github.com/user-attachments/assets/94d56e13-9b08-44b6-96fd-065d7fb23bef" />
 
 ##   c. Admin Pengelola Tanggapan Pengaduan
+
+Langkah-langkah penggunaan bagi admin yang mengelola tanggapan pengaduan masyarakat adalah sebagai berikut:
+
+### a). Buka Program
+Jalankan aplikasi Sistem Data Terpadu dan Pengaduan Institusi Publik.
+
+<img width="896" height="500" alt="image" src="https://github.com/user-attachments/assets/07c43bf1-78a9-4ba8-b768-4e12906f7b88" />
+
+Nantinya akan tertampil menu utama, pada menu utama terdapat dua pilihan yaitu registrasi (admin tidak bisa membuat akun sendiri) dan login.
+
+### b). Login sebagai Admin Pengelola Pengaduan
+
+Klik tombol **“Login”** pada halaman utama. Dan akan tertampil seperti dibawah, kita akan diminta untuk mengisi email dan kata sandi untuk login. Dan juga terdapat button **X** untuk keluar dari menu login dan kembali ke menu utama jika tidak jadi untuk melakukan login.
+
+<img width="902" height="520" alt="image" src="https://github.com/user-attachments/assets/b50a94b4-4bcb-4a89-b152-3740f9294ad0" />
+
+Masukkan **email dan password** yang sudah terdaftar.
+
+<img width="905" height="533" alt="image" src="https://github.com/user-attachments/assets/0d1b2ed9-5f5e-4f6f-a621-311f69a4acec" />
+
+Klik tombol **“Login”** untuk masuk ke menu admin pengelola pengaduan. Dan jika berhasil login sebagi admin akan langsung masuk ke menu admin pengelola pengaduan.
+
+<img width="891" height="536" alt="image" src="https://github.com/user-attachments/assets/0bf445c6-0648-47ce-b4f6-bba9ac7d27c9" />
+
+Jika terjadi kesalahan dalam memasukan data, akan tertampil pesan seperti:
+
+<img width="320" height="185" alt="image" src="https://github.com/user-attachments/assets/0646730e-6ebe-44d4-9098-a47f8dfab600" />
+
+### c). Menu Admin - Pengelola Data Pengaduan
+
+Pada menu admin pengelola pengaduan, terdapat button **X** untuk keluar dari menu admin pengelola pengaduan dan akan kembali ke menu utama. Dan pada menu admin pengelola pengaduan terdapat side bar yang terdapat **dashboard, menambah data, melihat data, memperbarui data, menghapus data, dan melihat tabel pengaduan** 
+
+<img width="903" height="546" alt="image" src="https://github.com/user-attachments/assets/fa9b22d4-72bb-4210-a91d-a31f6be1c47e" />
+
+1. Dashboard
+
+Saat masuk ke menu admin pengelola anggaran, halaman yang pertama kali terbuka adalah **dashboard**. Pada dashboard terdapat deskripsi halaman admin pengelola anggaran dan hal-hal yang bisa dilakukan oleh admin.
+
+<img width="903" height="546" alt="image" src="https://github.com/user-attachments/assets/1e53ec1a-e412-4ef6-a254-5489fb757853" />
+
+2. Menambah data
+   
+Pada menu **“admin pengelola pengaduan”**, klik **“Menambah data”.**
+
+<img width="1134" height="617" alt="image" src="https://github.com/user-attachments/assets/23ea7ad8-3a66-4ddd-b585-410287bf54ee" />
+
+Pertama pilih **ID pengaduan** yang ingin diberikan tanggapan. Lalu isi kolom seperti **Status (diteruskan, ditindaklanjuti, dan diselesaikan), Isi Tanggapan dan Tanggal.**
+
+<img width="1132" height="620" alt="image" src="https://github.com/user-attachments/assets/785fafa2-079d-4965-b843-764655cf770d" />
+
+Klik **“Tambah”** untuk menambahkan data tanggapan. Jika data berhasil ditambahkan akan tertampil pesan **"Tanggapan Berhasil ditambahkan!"**.
+
+<img width="334" height="181" alt="image" src="https://github.com/user-attachments/assets/ad1f684d-4b0c-467f-b2b9-43320c8046f7" />
+
+Jika terjadi kesalahan dalam memasukan data, akan tertampil pesan seperti:
+- Jika ID Pengaduan belum dipilih
+
+<img width="329" height="187" alt="image" src="https://github.com/user-attachments/assets/b4c0040f-27ef-4abe-92e7-6e41d9f94a42" />
+
+- Jika isi tanggapan belum diisi
+  
+<img width="326" height="188" alt="image" src="https://github.com/user-attachments/assets/b00ff813-7e7d-45f9-9979-a737a31102af" />
+
+3. Melihat data
+
+Pilih menu **“Melihat data”** untuk melihat tabel data tanggapan yang telah kita tambahkan di sistem.
+
+<img width="930" height="544" alt="image" src="https://github.com/user-attachments/assets/2bb77ed2-4228-4121-bb70-f5c2e83c4b6a" />
+
+4. Memperbarui data
+
+Pilih menu **“Memperbarui data”** untuk memperbarui data tanggapan yang kemungkinan ada salah input. Pertama, admin akan diminta untuk memilih **id tanggapan** yang ingin diperbarui. Setelah memilih id tanggaoan, data tanggapan dari id akan muncul dan dapat kita perbarui datanya
+
+<img width="894" height="544" alt="image" src="https://github.com/user-attachments/assets/b3e404a2-5986-4a68-8a93-10b55a3b7630" />
+
+Misalnya admin ingin memperbarui status tanggapan pengaduan dari ditindaklanjuti ke diselesaikan.
+
+<img width="905" height="546" alt="image" src="https://github.com/user-attachments/assets/fa6317a3-8e1b-4c1c-a368-47aef9832826" />
+
+Jika data tanggapan berhasil di perbarui akan muncul pesan seperti **"Data berhasil diperbarui!"**. Dan klik **OK** untuk menyelesaikan pembaruan data.
+
+<img width="325" height="174" alt="image" src="https://github.com/user-attachments/assets/20beaeb3-c5c6-423f-885b-575247d912b6" />
+
+4. Menghapus data
+
+Pilih menu **“Menghapus data”** untuk menghapus data tanggapan. Pertama, admin akan diminta untuk memilih **id tanggapan** yang ingin dihapus. Setelah memilih id tanggapan, data tanggapan dari id akan muncul dan admin bisa melihat data-data dari data tanggapan. 
+
+<img width="942" height="537" alt="image" src="https://github.com/user-attachments/assets/ae0704c6-cf45-4c19-a566-2cc07e4d36ff" />
+
+Misalnya admin ingin menghapus data anggaran dengan ID TGP050, akan muncul data tanggapan tersebut. 
+
+<img width="925" height="532" alt="image" src="https://github.com/user-attachments/assets/d6a2ee14-ae89-4e78-bb18-e229f05e0bf1" />
+
+Klik **"Hapus"** untuk mengapus data anggaran. Jika mengklik hapus, akan keluar pesan konfirmasi, apakah **"Yakin hapus data ID: (ID yang ingin dihapus)?"**. Jika pilih Yes maka data anggaran akan terhapus dan jika pilih No maka data anggaran tidak akan terhapus.
+
+<img width="317" height="179" alt="image" src="https://github.com/user-attachments/assets/8ec0243d-584b-4139-828d-cc465270ae51" />
+
+Jika data anggaran berhasil di hapus akan muncul pesan seperti **"Data anggaran berhasil dihapus!"**. Dan klik **OK** untuk menyelesaikan penghapusan data.
+
+<img width="319" height="182" alt="image" src="https://github.com/user-attachments/assets/f4c31582-096e-480d-8358-1b40560344e7" />
+
+### d). Keluar dari menu Admin - Pengelola Data Anggaran
+
+Setelah selesai, klik tombol **“X”** pada menu admin pengelola anggaran untuk keluar dengan aman dari menu admin pengelola anggaran. Jika mengklik tombol X akan tertampil pesan seperti digambar, klik **Yes** jika ingin keluar dan klik **No** jika masih ingin di menu admin pengelola anggaran. Jika mengklik Yes admin pengelola anggaran akan kembali ke menu utama.
+
+<img width="431" height="180" alt="image" src="https://github.com/user-attachments/assets/fed7aaa1-76b0-4c5e-8078-55f1c68c7b03" />
+
+### d). Keluar dari sistem/aplikasi
+Setelah keluar dari menu admin pengelola anggaran, admin pengelola anggaran akan kembali ke menu utama.
+
+<img width="902" height="491" alt="image" src="https://github.com/user-attachments/assets/c3606319-444d-425b-9ce4-35ac4571ae2c" />
+
+klik tombol **“X”** pada menu utama untuk keluar dengan aman dari menu utama. Jika mengklik tombol X akan tertampil pesan seperti digambar, klik **Yes** jika ingin keluar dan klik **No** jika masih ingin mengakses sistem. Jika mengklik Yes pengguna akan keluar dari sistem.
+
+<img width="398" height="180" alt="image" src="https://github.com/user-attachments/assets/94d56e13-9b08-44b6-96fd-065d7fb23bef" />
