@@ -516,7 +516,7 @@ Masukkan **email dan password** yang sudah terdaftar.
 
 Klik tombol **“Login”** untuk masuk ke menu admin pengelola pengaduan. Dan jika berhasil login sebagi admin akan langsung masuk ke menu admin pengelola pengaduan.
 
-<img width="891" height="536" alt="image" src="https://github.com/user-attachments/assets/0bf445c6-0648-47ce-b4f6-bba9ac7d27c9" />
+<img width="903" height="546" alt="image" src="https://github.com/user-attachments/assets/fa9b22d4-72bb-4210-a91d-a31f6be1c47e" />
 
 Jika terjadi kesalahan dalam memasukan data, akan tertampil pesan seperti:
 
