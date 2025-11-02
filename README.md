@@ -126,9 +126,17 @@ Encapsulation berarti menyembunyikan data (atribut) agar tidak bisa diakses lang
 
 
 ##   b. Abstraction
+Abstraction adalah proses menyembunyikan detail kompleks dari suatu sistem dan hanya menampilkan bagian penting atau esensialnya kepada pengguna Agar pengguna tidak perlu tahu bagaimana sesuatu bekerja di dalam, tapi cukup tahu bagaimana cara menggunakannya.
+
 ##   c. Polymorphism 
+Dalam Java, Polymorphism memungkinkan satu method atau objek untuk memiliki banyak perilaku berbeda, tergantung pada objek mana yang memanggilnya.
+Tujuan utama polymorphism adalah membuat program lebih fleksibel, efisien, dan mudah dikembangkan.
+
 ##   d. Inheritance
+Inheritance atau pewarisan adalah konsep OOP yang memungkinkan kelas anak (subclass) untuk mewarisi atribut dan method dari kelas induk (superclass).
+
 ##   e. Interface
+Interface adalah konsep dalam OOP yang digunakan untuk mendefinisikan perilaku (method) yang harus diimplementasikan oleh kelas lain, tanpa menyediakan isi atau logika dari method tersebut.
 
 # D. Struktur Package/Folder Program
 Struktur program Sistem Data Terpadu dan Pengaduan Institusi Publik dirancang menggunakan pola Model-View-Controller (MVC) untuk memisahkan logika data, tampilan, dan pengendali proses. Tujuannya agar sistem lebih mudah dikembangkan, diuji, dan dikelola.
