@@ -122,6 +122,9 @@ Admin dapat melihat semua pengaduan yang dikirim oleh pengguna, lengkap dengan d
 
 # C. Penerapan 5 Pilar OOP (Object Oriented Programming)
 ##   a. Encapsulation
+Encapsulation berarti menyembunyikan data (atribut) agar tidak bisa diakses langsung dari luar class, tetapi melalui getter dan setter. tujuan nya adalah untuk melindungi atribut agar tidak diubah sembarangan dari luar class dengan menggunakan access modifier (private, protected, public). Encapsulation ini di terapkan di pada semua class yang ada di packages model.
+
+
 ##   b. Abstraction
 ##   c. Polymorphism 
 ##   d. Inheritance
