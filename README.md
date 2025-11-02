@@ -211,32 +211,32 @@ Tiap file Java di sini berfungsi menampilkan form atau menu tertentu.
 1. AdminPengelolaPengaduan.java (class): Menu utama/dashboard admin pengelola tanggapan pengaduan.
 2. AdminPengelolaPengaduan_melihat.java (class): Menampilkan daftar tanggapan pengaduan.
 3. AdminPengelolaPengaduan_menambah.java (class): Form untuk menambahkan data pengaduan baru.
-4. AdminPengelolaPengaduan_memperbarui.java (class) – Form untuk memperbarui tanggapan.
-5. AdminPengelolaPengaduan_menghapus.java (class) – Form untuk menghapus tanggapan.
-6. AdminPengelolaPengaduan_pengaduan.java (class) – Menampilkan daftar pengaduan masyarakat.
+4. AdminPengelolaPengaduan_memperbarui.java (class): Form untuk memperbarui tanggapan.
+5. AdminPengelolaPengaduan_menghapus.java (class): Form untuk menghapus tanggapan.
+6. AdminPengelolaPengaduan_pengaduan.java (class): Menampilkan daftar pengaduan masyarakat.
 
 ### c). Tampilan Pengguna
-1. MenuPengguna.java (class) – Menu utama pengguna setelah login.
-2. Pengaduan_menambah.java (class) – Form untuk mengajukan pengaduan baru.
-3. Pengaduan_pengadu.java (class) – Menu utama/dashboard pengguna pengaduan.
-4. Pengaduan_tabelPengaduan.java (class) – Menampilkan data pengaduan dalam bentuk tabel.
-5. Pengaduan_tabelTanggapan.java (class) – Menampilkan tanggapan dari admin terhadap pengaduan.
-6. Pengguna_dataAnggaran.java (class) – Menampilkan data anggaran publik yang dapat dilihat pengguna.
+1. MenuPengguna.java (class): Menu utama pengguna setelah login.
+2. Pengaduan_menambah.java (class): Form untuk mengajukan pengaduan baru.
+3. Pengaduan_pengadu.java (class): Menu utama/dashboard pengguna pengaduan.
+4. Pengaduan_tabelPengaduan.java (class): Menampilkan data pengaduan dalam bentuk tabel.
+5. Pengaduan_tabelTanggapan.java (class): Menampilkan tanggapan dari admin terhadap pengaduan.
+6. Pengguna_dataAnggaran.java (class): Menampilkan data anggaran publik yang dapat dilihat pengguna.
 
 ### d). Tampilan Umum (Menu Awal)
-1. menuLogin.java (class) – Tampilan halaman login awal.
-2. menuRegistrasi.java (class) – Tampilan halaman registrasi pengguna baru.
-3. menuUtama.java (class) – Tampilan menu utama saat program dijalankan pertama kali.
+1. menuLogin.java (class): Tampilan halaman login awal.
+2. menuRegistrasi.java (class): Tampilan halaman registrasi pengguna baru.
+3. menuUtama.java (class): Tampilan menu utama saat program dijalankan pertama kali.
 
 ### e). File Pendukung (Gambar)
 File-file berikut digunakan sebagai elemen visual untuk mempercantik tampilan antarmuka:
-1. GEDUNGBARU.png (gambar) – Gambar dekoratif di halaman utama.
-2. gedung.png (gambar) – Ilustrasi gedung.
-3. instansi.png (gambar) – Ikon instansi publik.
-4. logo.png (gambar) – Logo utama aplikasi.
-5. orang.png (gambar) – Ikon pengguna.
-6. oranglagi.png (gambar) – Ikon tambahan untuk tampilan pengguna.
-7. reqis.png (gambar) – Ikon yang digunakan di halaman registrasi.
+1. GEDUNGBARU.png (gambar): Gambar dekoratif di halaman utama.
+2. gedung.png (gambar): Ilustrasi gedung.
+3. instansi.png (gambar): Ikon instansi publik.
+4. logo.png (gambar): Logo utama aplikasi.
+5. orang.png (gambar): Ikon pengguna.
+6. oranglagi.png (gambar): Ikon tambahan untuk tampilan pengguna.
+7. reqis.png (gambar): Ikon yang digunakan di halaman registrasi.
 
 # E. Tutorial Penggunaan Program
 ##   a. Pengguna
