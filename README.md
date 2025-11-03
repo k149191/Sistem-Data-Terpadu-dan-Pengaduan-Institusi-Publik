@@ -133,7 +133,7 @@ Getter dan setter
 
 <img width="344" height="408" alt="image" src="https://github.com/user-attachments/assets/cfbf3480-b4ce-4a7d-9fec-cfb3034b498e" />
 
-### b). Implementasi pada class Admin
+### b). Implementasi pada class admin
 
 <img width="282" height="29" alt="image" src="https://github.com/user-attachments/assets/6372759a-8c2d-425b-8195-4175a606de11" />
 
@@ -149,7 +149,7 @@ getter dan setter
 
 <img width="412" height="138" alt="image" src="https://github.com/user-attachments/assets/28e7fdb9-0b0f-49cf-b576-437433798883" />
 
-### d). Implementasi pada class anggaran :
+### d). Implementasi pada class anggaran
 
 <img width="241" height="80" alt="image" src="https://github.com/user-attachments/assets/5a8d70cd-2907-45f4-8b5e-2c23952be01b" />
 
@@ -185,29 +185,29 @@ getter dan setter
 Abstraction adalah proses menyembunyikan detail kompleks dari suatu sistem dan hanya menampilkan bagian penting atau esensialnya kepada pengguna Agar pengguna tidak perlu tahu bagaimana sesuatu bekerja di dalam, tapi cukup tahu bagaimana cara menggunakannya.
 class yang mengimplementasikan:
 
-Implementasi pada class akun: 
+### a). Implementasi pada class akun
 
 <img width="399" height="31" alt="image" src="https://github.com/user-attachments/assets/d5c13b9a-ad5a-4868-9b5d-d6195ae32642" />
 
 <img width="358" height="33" alt="image" src="https://github.com/user-attachments/assets/3a09cd4c-fd6a-4176-8bbd-85cb28db7821" />
 
-implementasi pada class anggaran :
+### b). Implementasi pada class anggaran
 
 <img width="719" height="268" alt="image" src="https://github.com/user-attachments/assets/85044dc0-c64d-47e2-8b22-7b1a7bcdde0a" />
 
-implementasi pada class instansi:
+### c). Implementasi pada class instansi
 
 <img width="636" height="90" alt="image" src="https://github.com/user-attachments/assets/9cc6a646-4473-48cb-9142-978693447049" />
 
-implementasi pada class pengaduan:
+### d). Implementasi pada class pengaduan
 
 <img width="617" height="68" alt="image" src="https://github.com/user-attachments/assets/34f7c8ca-450f-4623-b6b8-1f82cb655ac0" />
 
-implementasi pada class tanggapan:
+### e). Implementasi pada class tanggapan
 
 <img width="615" height="67" alt="image" src="https://github.com/user-attachments/assets/e5334e71-f290-4db9-abea-e03e3bbd4d13" />
 
-implementasi pada class wilayah :
+### f). Implementasi pada class wilayah 
 
 <img width="633" height="87" alt="image" src="https://github.com/user-attachments/assets/13717a9e-6fd6-4d0c-bede-bbe3110f1a54" />
 
@@ -217,35 +217,35 @@ Dalam Java, Polymorphism memungkinkan satu method atau objek untuk memiliki bany
 Tujuan utama polymorphism adalah membuat program lebih fleksibel, efisien, dan mudah dikembangkan.
 class yang mengimplementasikan:
 
-implementasi pada class Akun:
+### a). Implementasi pada class akun
 
 <img width="495" height="144" alt="image" src="https://github.com/user-attachments/assets/7bb7044d-382a-485a-87b2-797b607f456a" />
 
-implementasi pada class Admin:
+### b). Implementasi pada class admin
 
 <img width="305" height="114" alt="image" src="https://github.com/user-attachments/assets/b9c54303-c3ca-4e6c-9ae2-98ae83c2e686" />
 
-implementasi pada class pengguna:
+### c). Implementasi pada class pengguna
 
 <img width="304" height="101" alt="image" src="https://github.com/user-attachments/assets/cf7a2396-1df4-4a46-b78a-0f27caf1e852" />
 
-implementasi pada class Anggaran:
+### d). Implementasi pada class anggaran
 
 <img width="719" height="268" alt="image" src="https://github.com/user-attachments/assets/9dda5f0f-0560-4865-bd75-a14d285bee42" />
 
-implementasi pada class instansi :
+### e). Implementasi pada class instansi 
 
 <img width="636" height="90" alt="image" src="https://github.com/user-attachments/assets/ed44dac5-22c0-46fa-8b8d-9d1dd1e93912" />
 
-implementasi pada class pengaduan : 
+### f). Implementasi pada class pengaduan 
 
 <img width="601" height="104" alt="image" src="https://github.com/user-attachments/assets/1ad7353a-331b-4eb7-883e-12d47e8590bd" />
 
-implementasi pada class tanggapan :
+### g). Implementasi pada class tanggapan 
 
 <img width="615" height="135" alt="image" src="https://github.com/user-attachments/assets/500c0bb0-fdae-4868-89ee-83877890b1e9" />
 
-implementasi pada class wilayah:
+### ah. Implementasi pada class wilayah
 
 <img width="633" height="87" alt="image" src="https://github.com/user-attachments/assets/1004f698-ea2b-4154-9d57-ed69b21d17ce" />
 
@@ -253,11 +253,11 @@ implementasi pada class wilayah:
 Inheritance atau pewarisan adalah konsep OOP yang memungkinkan kelas anak (subclass) untuk mewarisi atribut dan method dari kelas induk (superclass).
 class yang mengimplementasikannya adalah Class Admin dan pengguna.
 
-implementasi pada class admin :
+### a). Implementasi pada class admin 
 
 <img width="402" height="53" alt="image" src="https://github.com/user-attachments/assets/4bdb6355-117d-4175-a0c3-8f9d7038c437" />
 
-implementasi pada class pengguna :
+### b). Implementasi pada class pengguna 
 
 <img width="490" height="54" alt="image" src="https://github.com/user-attachments/assets/08052570-e31c-4bf0-92c9-772685c81ae7" />
 
@@ -265,7 +265,7 @@ implementasi pada class pengguna :
 ##   e. Interface
 Interface adalah konsep dalam OOP yang digunakan untuk mendefinisikan perilaku (method) yang harus diimplementasikan oleh kelas lain, tanpa menyediakan isi atau logika dari method tersebut.
 
-**implementasi pada class interface laporan :**
+### a). Implementasi pada class interface laporan
 
 <img width="188" height="56" alt="image" src="https://github.com/user-attachments/assets/7468c46d-b19c-4894-87f6-9b67ab8fbd53" />
 
@@ -285,7 +285,7 @@ class tanggapan:
 <img width="422" height="30" alt="image" src="https://github.com/user-attachments/assets/f280d0d1-926e-4cdc-9205-f0d95c2bad8b" />
 
 
-**implementasi pada class interface Validatable:**
+### b). Implementasi pada class interface Validatable
 
 <img width="201" height="60" alt="image" src="https://github.com/user-attachments/assets/0bcb327b-4b92-4e7a-b6f6-c9eb573dd615" />
 
