@@ -260,9 +260,11 @@ class anggaran:
 <img width="409" height="41" alt="image" src="https://github.com/user-attachments/assets/50455b85-d515-4d18-b64b-5fe309e3ef22" />
 
 class pengaduan:
+
 <img width="399" height="38" alt="image" src="https://github.com/user-attachments/assets/aa34f092-8aad-47fe-92fb-94d96bc54cc4" />
 
 class tanggapan:
+
 <img width="422" height="30" alt="image" src="https://github.com/user-attachments/assets/f280d0d1-926e-4cdc-9205-f0d95c2bad8b" />
 
 
