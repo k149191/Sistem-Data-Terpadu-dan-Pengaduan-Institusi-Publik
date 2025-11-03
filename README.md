@@ -122,26 +122,150 @@ Admin dapat melihat semua pengaduan yang dikirim oleh pengguna, lengkap dengan d
 
 # C. Penerapan 5 Pilar OOP (Object Oriented Programming)
 ##   a. Encapsulation
-Encapsulation berarti menyembunyikan data (atribut) agar tidak bisa diakses langsung dari luar class, tetapi melalui getter dan setter. tujuan nya adalah untuk melindungi atribut agar tidak diubah sembarangan dari luar class dengan menggunakan access modifier (private, protected, public). Encapsulation ini di terapkan di pada semua class yang ada di packages model.
+Encapsulation berarti menyembunyikan data (atribut) agar tidak bisa diakses langsung dari luar class, tetapi melalui getter dan setter. tujuan nya adalah untuk melindungi atribut agar tidak diubah sembarangan dari luar class dengan menggunakan access modifier (private, protected, public). 
+class yang mengimplementasikan:
+
 Implementasi pada class akun :
 <img width="573" height="188" alt="image" src="https://github.com/user-attachments/assets/15c79e12-0190-454a-85a0-c146e20f00cc" />
-getter dan setter
+
+Getter dan setter
 <img width="344" height="408" alt="image" src="https://github.com/user-attachments/assets/cfbf3480-b4ce-4a7d-9fec-cfb3034b498e" />
 
+implementasi pada class Admin :
+<img width="282" height="29" alt="image" src="https://github.com/user-attachments/assets/6372759a-8c2d-425b-8195-4175a606de11" />
 
+Getter dan setter :
+<img width="659" height="144" alt="image" src="https://github.com/user-attachments/assets/9157274c-dfe4-4373-9143-00348f87f510" />
+
+Implementasi pada class pengguna :
+<img width="278" height="33" alt="image" src="https://github.com/user-attachments/assets/cde731b9-f7ee-4da2-aafc-525eb3910f0d" />
+
+getter dan setter :
+<img width="412" height="138" alt="image" src="https://github.com/user-attachments/assets/28e7fdb9-0b0f-49cf-b576-437433798883" />
+
+implementasi pada class anggaran :
+<img width="241" height="80" alt="image" src="https://github.com/user-attachments/assets/5a8d70cd-2907-45f4-8b5e-2c23952be01b" />
+
+getter dan setter :
+<img width="364" height="434" alt="image" src="https://github.com/user-attachments/assets/174f6379-1f2a-4f59-862e-310e0f6e9bb2" />
+
+implementasi pada class instansi:
+<img width="291" height="129" alt="image" src="https://github.com/user-attachments/assets/92daeb19-a6e5-4ca6-b6a7-46981eeff5af" />
+
+getter dan setter:
+<img width="319" height="421" alt="image" src="https://github.com/user-attachments/assets/eba43a12-230b-478d-9326-3af0f1da97c3" />
+
+implementasi pada class pengaduan:
+<img width="219" height="94" alt="image" src="https://github.com/user-attachments/assets/6fc70484-6624-4627-b148-b48409b1621c" />
+
+getter dan setter:
+<img width="315" height="431" alt="image" src="https://github.com/user-attachments/assets/db92383c-e3da-47d7-b7fd-38f5b58b257c" />
+
+implementasi pada class tanggapan :
+<img width="252" height="135" alt="image" src="https://github.com/user-attachments/assets/1aa1cb47-a529-420d-91b4-bf4252f7f245" />
+
+getter dan setter:
+<img width="322" height="445" alt="image" src="https://github.com/user-attachments/assets/c408dbc1-d785-40d8-ad67-55e2ef90eb4a" />
 
 ##   b. Abstraction
 Abstraction adalah proses menyembunyikan detail kompleks dari suatu sistem dan hanya menampilkan bagian penting atau esensialnya kepada pengguna Agar pengguna tidak perlu tahu bagaimana sesuatu bekerja di dalam, tapi cukup tahu bagaimana cara menggunakannya.
+class yang mengimplementasikan:
+
+Implementasi pada class akun: 
+<img width="399" height="31" alt="image" src="https://github.com/user-attachments/assets/d5c13b9a-ad5a-4868-9b5d-d6195ae32642" />
+
+<img width="358" height="33" alt="image" src="https://github.com/user-attachments/assets/3a09cd4c-fd6a-4176-8bbd-85cb28db7821" />
+
+implementasi pada class anggaran :
+<img width="719" height="268" alt="image" src="https://github.com/user-attachments/assets/85044dc0-c64d-47e2-8b22-7b1a7bcdde0a" />
+
+implementasi pada class instansi:
+<img width="636" height="90" alt="image" src="https://github.com/user-attachments/assets/9cc6a646-4473-48cb-9142-978693447049" />
+
+implementasi pada class pengaduan:
+<img width="617" height="68" alt="image" src="https://github.com/user-attachments/assets/34f7c8ca-450f-4623-b6b8-1f82cb655ac0" />
+
+implementasi pada class tanggapan:
+<img width="615" height="67" alt="image" src="https://github.com/user-attachments/assets/e5334e71-f290-4db9-abea-e03e3bbd4d13" />
+
+implementasi pada class wilayah :
+<img width="633" height="87" alt="image" src="https://github.com/user-attachments/assets/13717a9e-6fd6-4d0c-bede-bbe3110f1a54" />
+
 
 ##   c. Polymorphism 
 Dalam Java, Polymorphism memungkinkan satu method atau objek untuk memiliki banyak perilaku berbeda, tergantung pada objek mana yang memanggilnya.
 Tujuan utama polymorphism adalah membuat program lebih fleksibel, efisien, dan mudah dikembangkan.
+class yang mengimplementasikan:
+
+implementasi pada class Akun:
+<img width="495" height="144" alt="image" src="https://github.com/user-attachments/assets/7bb7044d-382a-485a-87b2-797b607f456a" />
+
+implementasi pada class Admin:
+<img width="305" height="114" alt="image" src="https://github.com/user-attachments/assets/b9c54303-c3ca-4e6c-9ae2-98ae83c2e686" />
+
+implementasi pada class pengguna:
+<img width="304" height="101" alt="image" src="https://github.com/user-attachments/assets/cf7a2396-1df4-4a46-b78a-0f27caf1e852" />
+
+implementasi pada class Anggaran:
+<img width="719" height="268" alt="image" src="https://github.com/user-attachments/assets/9dda5f0f-0560-4865-bd75-a14d285bee42" />
+
+implementasi pada class instansi :
+<img width="636" height="90" alt="image" src="https://github.com/user-attachments/assets/ed44dac5-22c0-46fa-8b8d-9d1dd1e93912" />
+
+implementasi pada class pengaduan : 
+<img width="601" height="104" alt="image" src="https://github.com/user-attachments/assets/1ad7353a-331b-4eb7-883e-12d47e8590bd" />
+
+implementasi pada class tanggapan :
+<img width="615" height="135" alt="image" src="https://github.com/user-attachments/assets/500c0bb0-fdae-4868-89ee-83877890b1e9" />
+
+implementasi pada class wilayah:
+<img width="633" height="87" alt="image" src="https://github.com/user-attachments/assets/1004f698-ea2b-4154-9d57-ed69b21d17ce" />
 
 ##   d. Inheritance
 Inheritance atau pewarisan adalah konsep OOP yang memungkinkan kelas anak (subclass) untuk mewarisi atribut dan method dari kelas induk (superclass).
+class yang mengimplementasikannya adalah Class Admin dan pengguna.
+
+implementasi pada class admin :
+<img width="402" height="53" alt="image" src="https://github.com/user-attachments/assets/4bdb6355-117d-4175-a0c3-8f9d7038c437" />
+
+implementasi pada class pengguna :
+<img width="490" height="54" alt="image" src="https://github.com/user-attachments/assets/08052570-e31c-4bf0-92c9-772685c81ae7" />
+
 
 ##   e. Interface
 Interface adalah konsep dalam OOP yang digunakan untuk mendefinisikan perilaku (method) yang harus diimplementasikan oleh kelas lain, tanpa menyediakan isi atau logika dari method tersebut.
+
+**implementasi pada class interface laporan :**
+<img width="188" height="56" alt="image" src="https://github.com/user-attachments/assets/7468c46d-b19c-4894-87f6-9b67ab8fbd53" />
+
+Method ini harus diimplementasikan oleh setiap class yang ingin menghasilkan laporan.
+Class–class yang mengimplementasikan interface ini antara lain:
+
+class anggaran:
+
+<img width="409" height="41" alt="image" src="https://github.com/user-attachments/assets/50455b85-d515-4d18-b64b-5fe309e3ef22" />
+
+class pengaduan:
+<img width="399" height="38" alt="image" src="https://github.com/user-attachments/assets/aa34f092-8aad-47fe-92fb-94d96bc54cc4" />
+
+class tanggapan:
+<img width="422" height="30" alt="image" src="https://github.com/user-attachments/assets/f280d0d1-926e-4cdc-9205-f0d95c2bad8b" />
+
+
+**implementasi pada class interface Validatable:**
+<img width="201" height="60" alt="image" src="https://github.com/user-attachments/assets/0bcb327b-4b92-4e7a-b6f6-c9eb573dd615" />
+
+Method ini harus diimplementasikan oleh setiap class yang ingin menghasilkan laporan.
+Class–class yang mengimplementasikan interface ini antara lain:
+
+Class wilayah :
+<img width="420" height="27" alt="image" src="https://github.com/user-attachments/assets/2475ce8c-5a51-4e07-846f-1312869c82a4" />
+
+class instansi:
+<img width="478" height="42" alt="image" src="https://github.com/user-attachments/assets/a180c698-42c5-4f7e-a2e1-987619acde6d" />
+
+class anggaran:
+<img width="409" height="41" alt="image" src="https://github.com/user-attachments/assets/b77e3a80-0d6a-4f5b-8e7f-02048ac921a9" />
 
 # D. Struktur Package/Folder Program
 Struktur program Sistem Data Terpadu dan Pengaduan Institusi Publik dirancang menggunakan pola Model-View-Controller (MVC) untuk memisahkan logika data, tampilan, dan pengendali proses. Tujuannya agar sistem lebih mudah dikembangkan, diuji, dan dikelola.
