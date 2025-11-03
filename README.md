@@ -125,7 +125,7 @@ Admin dapat melihat semua pengaduan yang dikirim oleh pengguna, lengkap dengan d
 Encapsulation berarti menyembunyikan data (atribut) agar tidak bisa diakses langsung dari luar class, tetapi melalui getter dan setter. tujuan nya adalah untuk melindungi atribut agar tidak diubah sembarangan dari luar class dengan menggunakan access modifier (private, protected, public). 
 class yang mengimplementasikan:
 
-Implementasi pada class akun :
+### a). Implementasi pada class akun
 
 <img width="573" height="188" alt="image" src="https://github.com/user-attachments/assets/15c79e12-0190-454a-85a0-c146e20f00cc" />
 
@@ -133,7 +133,7 @@ Getter dan setter
 
 <img width="344" height="408" alt="image" src="https://github.com/user-attachments/assets/cfbf3480-b4ce-4a7d-9fec-cfb3034b498e" />
 
-implementasi pada class Admin :
+### b). implementasi pada class Admin
 
 <img width="282" height="29" alt="image" src="https://github.com/user-attachments/assets/6372759a-8c2d-425b-8195-4175a606de11" />
 
