@@ -127,13 +127,17 @@ class yang mengimplementasikan:
 
 ### a). Implementasi pada class akun
 
-<img width="573" height="188" alt="image" src="https://github.com/user-attachments/assets/15c79e12-0190-454a-85a0-c146e20f00cc" />
+Class Akun menerapkan encapsulation dengan menjadikan semua atributnya (idAkun, nama, email, noHp, kataSandi) sebagai private, sehingga tidak bisa diakses langsung dari luar. Akses terhadap atribut-atribut tersebut dilakukan melalui getter dan setter, sehingga perubahan data tetap terkontrol dan lebih aman.
+
+<img width="223" height="77" alt="image" src="https://github.com/user-attachments/assets/fb77dc99-6f8a-49ea-9f82-9c8ca00a490f" />
 
 Getter dan setter
 
 <img width="344" height="408" alt="image" src="https://github.com/user-attachments/assets/cfbf3480-b4ce-4a7d-9fec-cfb3034b498e" />
 
 ### b). Implementasi pada class admin
+
+Pada class Admin, encapsulation diterapkan dengan menjadikan atribut peran sebagai private, sehingga tidak dapat diakses langsung dari luar class. Untuk mengontrol akses dan perubahan nilai peran, class ini menyediakan getter dan setter. Dengan cara ini, data tetap aman dan hanya dapat dimodifikasi melalui method yang sudah ditentukan.
 
 <img width="282" height="29" alt="image" src="https://github.com/user-attachments/assets/6372759a-8c2d-425b-8195-4175a606de11" />
 
@@ -143,6 +147,8 @@ Getter dan setter
 
 ### c). Implementasi pada class pengguna
 
+Pada class Pengguna, encapsulation diterapkan dengan menjadikan atribut Alamat sebagai private, sehingga tidak dapat diakses langsung dari luar class. Untuk mengontrol akses dan perubahan nilai alamat, class ini menyediakan getter dan setter. Dengan cara ini, data tetap aman dan hanya dapat dimodifikasi melalui method yang sudah ditentukan.
+
 <img width="278" height="33" alt="image" src="https://github.com/user-attachments/assets/cde731b9-f7ee-4da2-aafc-525eb3910f0d" />
 
 getter dan setter
@@ -150,6 +156,8 @@ getter dan setter
 <img width="412" height="138" alt="image" src="https://github.com/user-attachments/assets/28e7fdb9-0b0f-49cf-b576-437433798883" />
 
 ### d). Implementasi pada class anggaran
+
+Pada class Anggaran, encapsulation diterapkan dengan menjadikan atribut id_anggaran, namaAnggaran, totalAnggaran, realisasi, dan keteragan sebagai private, sehingga tidak dapat diakses langsung dari luar class. Untuk mengontrol akses dan perubahan nilai atribut tersebut, class ini menyediakan getter dan setter. Dengan cara ini, data tetap aman dan hanya dapat dimodifikasi melalui method yang sudah ditentukan.
 
 <img width="241" height="80" alt="image" src="https://github.com/user-attachments/assets/5a8d70cd-2907-45f4-8b5e-2c23952be01b" />
 
@@ -159,6 +167,8 @@ getter dan setter
 
 ### e). implementasi pada class instansi
 
+Pada class Anggaran, encapsulation diterapkan dengan menjadikan atribut id_instansi, nama, jenis, sektor, dan alamat sebagai private, sehingga tidak dapat diakses langsung dari luar class. Untuk mengontrol akses dan perubahan nilai atribut tersebut, class ini menyediakan getter dan setter . Dengan cara ini, data tetap aman dan hanya dapat dimodifikasi melalui method yang sudah ditentukan.
+
 <img width="291" height="129" alt="image" src="https://github.com/user-attachments/assets/92daeb19-a6e5-4ca6-b6a7-46981eeff5af" />
 
 getter dan setter
@@ -167,6 +177,8 @@ getter dan setter
 
 ### f). implementasi pada class pengaduan
 
+Pada class Anggaran, encapsulation diterapkan dengan menjadikan atribut id_pengaduan, id_pengguna, id_instansi, judul, dan isi sebagai private, sehingga tidak dapat diakses langsung dari luar class. Untuk mengontrol akses dan perubahan nilai atribut tersebut, class ini menyediakan getter dan setter. Dengan cara ini, data tetap aman dan hanya dapat dimodifikasi melalui method yang sudah ditentukan.
+
 <img width="219" height="94" alt="image" src="https://github.com/user-attachments/assets/6fc70484-6624-4627-b148-b48409b1621c" />
 
 getter dan setter
@@ -174,6 +186,8 @@ getter dan setter
 <img width="315" height="431" alt="image" src="https://github.com/user-attachments/assets/db92383c-e3da-47d7-b7fd-38f5b58b257c" />
 
 ### g). implementasi pada class tanggapan
+
+Pada class Anggaran, encapsulation diterapkan dengan menjadikan atribut id_tanggapan, id_admin, id_pengaduan, status, isi dan tanggal sebagai private, sehingga tidak dapat diakses langsung dari luar class. Untuk mengontrol akses dan perubahan nilai atribut tersebut, class ini menyediakan getter dan setter. Dengan cara ini, data tetap aman dan hanya dapat dimodifikasi melalui method yang sudah ditentukan.
 
 <img width="252" height="135" alt="image" src="https://github.com/user-attachments/assets/1aa1cb47-a529-420d-91b4-bf4252f7f245" />
 
