@@ -133,51 +133,51 @@ Getter dan setter
 
 <img width="344" height="408" alt="image" src="https://github.com/user-attachments/assets/cfbf3480-b4ce-4a7d-9fec-cfb3034b498e" />
 
-### b). implementasi pada class Admin
+### b). Implementasi pada class Admin
 
 <img width="282" height="29" alt="image" src="https://github.com/user-attachments/assets/6372759a-8c2d-425b-8195-4175a606de11" />
 
-Getter dan setter :
+Getter dan setter
 
 <img width="659" height="144" alt="image" src="https://github.com/user-attachments/assets/9157274c-dfe4-4373-9143-00348f87f510" />
 
-Implementasi pada class pengguna :
+### c). Implementasi pada class pengguna
 
 <img width="278" height="33" alt="image" src="https://github.com/user-attachments/assets/cde731b9-f7ee-4da2-aafc-525eb3910f0d" />
 
-getter dan setter :
+getter dan setter
 
 <img width="412" height="138" alt="image" src="https://github.com/user-attachments/assets/28e7fdb9-0b0f-49cf-b576-437433798883" />
 
-implementasi pada class anggaran :
+### d). Implementasi pada class anggaran :
 
 <img width="241" height="80" alt="image" src="https://github.com/user-attachments/assets/5a8d70cd-2907-45f4-8b5e-2c23952be01b" />
 
-getter dan setter :
+getter dan setter
 
 <img width="364" height="434" alt="image" src="https://github.com/user-attachments/assets/174f6379-1f2a-4f59-862e-310e0f6e9bb2" />
 
-implementasi pada class instansi:
+### e). implementasi pada class instansi
 
 <img width="291" height="129" alt="image" src="https://github.com/user-attachments/assets/92daeb19-a6e5-4ca6-b6a7-46981eeff5af" />
 
-getter dan setter:
+getter dan setter
 
 <img width="319" height="421" alt="image" src="https://github.com/user-attachments/assets/eba43a12-230b-478d-9326-3af0f1da97c3" />
 
-implementasi pada class pengaduan:
+### f). implementasi pada class pengaduan
 
 <img width="219" height="94" alt="image" src="https://github.com/user-attachments/assets/6fc70484-6624-4627-b148-b48409b1621c" />
 
-getter dan setter:
+getter dan setter
 
 <img width="315" height="431" alt="image" src="https://github.com/user-attachments/assets/db92383c-e3da-47d7-b7fd-38f5b58b257c" />
 
-implementasi pada class tanggapan :
+### g). implementasi pada class tanggapan
 
 <img width="252" height="135" alt="image" src="https://github.com/user-attachments/assets/1aa1cb47-a529-420d-91b4-bf4252f7f245" />
 
-getter dan setter:
+getter dan setter
 
 <img width="322" height="445" alt="image" src="https://github.com/user-attachments/assets/c408dbc1-d785-40d8-ad67-55e2ef90eb4a" />
 
