@@ -199,31 +199,17 @@ getter dan setter
 Abstraction adalah proses menyembunyikan detail kompleks dari suatu sistem dan hanya menampilkan bagian penting atau esensialnya kepada pengguna Agar pengguna tidak perlu tahu bagaimana sesuatu bekerja di dalam, tapi cukup tahu bagaimana cara menggunakannya.
 class yang mengimplementasikan:
 
-### a). Implementasi pada class akun
+**Implementasi pada class akun**
+
+Bagian ini menunjukkan bahwa Akun adalah abstract class, yaitu kelas dasar yang tidak dapat dibuat objeknya secara langsung.
+Abstract class berfungsi sebagai kerangka umum (template) bagi kelas turunan lain yang memiliki karakteristik serupa.
+Dalam sistem ini, Akun bisa menjadi dasar bagi berbagai jenis akun seperti Admin atau Pengguna.
 
 <img width="399" height="31" alt="image" src="https://github.com/user-attachments/assets/d5c13b9a-ad5a-4868-9b5d-d6195ae32642" />
 
+Kode public abstract String getPeran(); merupakan method abstrak dalam class Akun yang berfungsi sebagai kontrak agar setiap subclass wajib mengembalikan nilai peran sesuai jenis akun masing-masing, seperti Admin, Petugas, atau Pengguna.
+
 <img width="358" height="33" alt="image" src="https://github.com/user-attachments/assets/3a09cd4c-fd6a-4176-8bbd-85cb28db7821" />
-
-### b). Implementasi pada class anggaran
-
-<img width="719" height="268" alt="image" src="https://github.com/user-attachments/assets/85044dc0-c64d-47e2-8b22-7b1a7bcdde0a" />
-
-### c). Implementasi pada class instansi
-
-<img width="636" height="90" alt="image" src="https://github.com/user-attachments/assets/9cc6a646-4473-48cb-9142-978693447049" />
-
-### d). Implementasi pada class pengaduan
-
-<img width="617" height="68" alt="image" src="https://github.com/user-attachments/assets/34f7c8ca-450f-4623-b6b8-1f82cb655ac0" />
-
-### e). Implementasi pada class tanggapan
-
-<img width="615" height="67" alt="image" src="https://github.com/user-attachments/assets/e5334e71-f290-4db9-abea-e03e3bbd4d13" />
-
-### f). Implementasi pada class wilayah 
-
-<img width="633" height="87" alt="image" src="https://github.com/user-attachments/assets/13717a9e-6fd6-4d0c-bede-bbe3110f1a54" />
 
 
 ##   c. Polymorphism 
@@ -233,33 +219,56 @@ class yang mengimplementasikan:
 
 ### a). Implementasi pada class akun
 
+Method toString() digunakan untuk menampilkan informasi objek akun dalam format yang lebih informatif, yaitu menampilkan peran, ID akun, nama, dan email.
+
+Method equals() ditimpa agar perbandingan antar objek Akun tidak berdasarkan alamat memori, tetapi berdasarkan nilai atribut idAkun.
+
+Method hashCode() dibuat agar nilainya sesuai dengan idAkun,
+sehingga kalau objek disimpan di HashMap atau HashSet, sistem bisa tahu dua akun dengan ID sama = akun yang sama
+
 <img width="495" height="144" alt="image" src="https://github.com/user-attachments/assets/7bb7044d-382a-485a-87b2-797b607f456a" />
 
 ### b). Implementasi pada class admin
+
+Polymorphism diterapkan pada method getPeran() yang ditulis ulang (override) di class Admin.
+Walaupun method ini sudah dideklarasikan secara abstrak di class Akun, implementasinya berbeda di setiap class turunan sesuai peran masing-masing.
 
 <img width="305" height="114" alt="image" src="https://github.com/user-attachments/assets/b9c54303-c3ca-4e6c-9ae2-98ae83c2e686" />
 
 ### c). Implementasi pada class pengguna
 
+Polymorphism ditunjukkan pada method getPeran() yang di-override di class Pengguna.
+Walaupun method tersebut berasal dari class abstrak Akun, setiap class turunan seperti Admin dan Pengguna memiliki implementasi yang berbeda sesuai perannya masing-masing.
+
 <img width="304" height="101" alt="image" src="https://github.com/user-attachments/assets/cf7a2396-1df4-4a46-b78a-0f27caf1e852" />
 
 ### d). Implementasi pada class anggaran
+
+Penerapan Polymorphism pada class Anggaran terlihat pada method formatLaporan(), validate(), dan toString() yang di-override dari interface dan class induk. Ketiga method tersebut memiliki perilaku berbeda sesuai kebutuhan class Anggaran, sehingga menunjukkan konsep method overriding dalam OOP.
 
 <img width="719" height="268" alt="image" src="https://github.com/user-attachments/assets/9dda5f0f-0560-4865-bd75-a14d285bee42" />
 
 ### e). Implementasi pada class instansi 
 
+Polymorphism pada class Instansi ditunjukkan melalui method validate() yang di-override dari interface Validatable. Method ini memiliki perilaku tersendiri untuk memvalidasi data instansi, berbeda dari class lain yang juga mengimplementasikan interface tersebut.
+
 <img width="636" height="90" alt="image" src="https://github.com/user-attachments/assets/ed44dac5-22c0-46fa-8b8d-9d1dd1e93912" />
 
 ### f). Implementasi pada class pengaduan 
+
+Class Pengaduan menerapkan Polymorphism melalui method formatLaporan() yang di-override dari interface Laporan, serta method toString() yang menimpa method bawaan class Object. Kedua method tersebut memiliki perilaku khusus sesuai kebutuhan class Pengaduan.
 
 <img width="601" height="104" alt="image" src="https://github.com/user-attachments/assets/1ad7353a-331b-4eb7-883e-12d47e8590bd" />
 
 ### g). Implementasi pada class tanggapan 
 
+Class Tanggapan menerapkan Polymorphism melalui method formatLaporan() yang di-override dari interface Laporan, serta method toString() yang menimpa method bawaan class Object. Keduanya menampilkan perilaku khusus sesuai kebutuhan class Tanggapan.
+
 <img width="615" height="135" alt="image" src="https://github.com/user-attachments/assets/500c0bb0-fdae-4868-89ee-83877890b1e9" />
 
-### ah. Implementasi pada class wilayah
+### h. Implementasi pada class wilayah
+
+Polymorphism pada class Wilayah terdapat pada method validate() yang di-override dari interface Validatable. Method ini memiliki perilaku khusus untuk memvalidasi data wilayah, berbeda dari class lain yang juga mengimplementasikan interface tersebut.
 
 <img width="633" height="87" alt="image" src="https://github.com/user-attachments/assets/1004f698-ea2b-4154-9d57-ed69b21d17ce" />
 
@@ -269,9 +278,13 @@ class yang mengimplementasikannya adalah Class Admin dan pengguna.
 
 ### a). Implementasi pada class admin 
 
+Class Admin menerapkan Inheritance dengan mewarisi class abstrak Akun. Melalui pewarisan ini, Admin memperoleh atribut dan method dasar dari Akun, serta menambahkan atribut peran dan mengimplementasikan method getPeran() sesuai kebutuhanny
+
 <img width="402" height="53" alt="image" src="https://github.com/user-attachments/assets/4bdb6355-117d-4175-a0c3-8f9d7038c437" />
 
 ### b). Implementasi pada class pengguna 
+
+Class Pengguna menerapkan Inheritance dengan mewarisi class abstrak Akun. Class ini mendapatkan semua atribut dan method dari Akun, kemudian menambahkan atribut baru yaitu alamat serta mengimplementasikan method getPeran() dengan nilai "PENGGUNA".
 
 <img width="490" height="54" alt="image" src="https://github.com/user-attachments/assets/08052570-e31c-4bf0-92c9-772685c81ae7" />
 
@@ -280,6 +293,8 @@ class yang mengimplementasikannya adalah Class Admin dan pengguna.
 Interface adalah konsep dalam OOP yang digunakan untuk mendefinisikan perilaku (method) yang harus diimplementasikan oleh kelas lain, tanpa menyediakan isi atau logika dari method tersebut.
 
 ### a). Implementasi pada class interface laporan
+
+Interface Laporan berfungsi sebagai aturan atau template yang berisi method formatLaporan(). Setiap class yang memakai interface ini, seperti Anggaran, Pengaduan, dan Tanggapan, wajib membuat isi dari method tersebut sesuai kebutuhannya. Jadi, meskipun nama method sama, hasilnya bisa berbeda di tiap class
 
 <img width="188" height="56" alt="image" src="https://github.com/user-attachments/assets/7468c46d-b19c-4894-87f6-9b67ab8fbd53" />
 
@@ -300,6 +315,8 @@ class tanggapan:
 
 
 ### b). Implementasi pada class interface Validatable
+
+Interface Validatable berfungsi sebagai aturan untuk memastikan setiap class yang menggunakannya memiliki method validate(). Method ini digunakan untuk memeriksa atau memvalidasi data agar tidak ada nilai kosong atau tidak valid. Contohnya, class Instansi, Wilayah, dan Anggaran memakai interface ini untuk mengecek data sebelum disimpan.
 
 <img width="201" height="60" alt="image" src="https://github.com/user-attachments/assets/0bcb327b-4b92-4e7a-b6f6-c9eb573dd615" />
 
